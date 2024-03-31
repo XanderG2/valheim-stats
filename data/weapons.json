@@ -1,0 +1,437 @@
+{
+  "Abyssal harpoon": {
+    "Fine wood": "8",
+    "Chitin": "30",
+    "Leather scraps": "3"
+  },
+  "Abyssal razor": {
+    "Fine wood": "4",
+    "Chitin": "20",
+    "Leather scraps": "2"
+  },
+  "Ancient bark spear": {
+    "Troll hide": "4",
+    "Iron": "10",
+    "Ancient bark": "10"
+  },
+  "Antler pickaxe": {
+    "Wood": "10",
+    "Hard antler": "1"
+  },
+  "Arbalest": {
+    "Wood": "10",
+    "Iron": "8",
+    "Root": "4"
+  },
+  "Banded shield": {
+    "Fine wood": "10",
+    "Iron": "8"
+  },
+  "Battleaxe": {
+    "Ancient bark": "30",
+    "Iron": "35",
+    "Leather scraps": "4"
+  },
+  "Bile bomb": {
+    "Sap": "1",
+    "Bilebag": "1",
+    "Resin": "3"
+  },
+  "Black metal missile": {
+    "Wood": "10",
+    "Black metal": "1"
+  },
+  "Black metal pickaxe": {
+    "Yggdrasil wood": "3",
+    "Black metal": "25"
+  },
+  "Black metal shield": {
+    "Fine wood": "10",
+    "Black metal": "8",
+    "Chain": "5"
+  },
+  "Black metal tower shield": {
+    "Fine wood": "15",
+    "Black metal": "10",
+    "Chain": "7"
+  },
+  "Blackmetal atgeir": {
+    "Fine wood": "10",
+    "Black metal": "30",
+    "Linen thread": "5"
+  },
+  "Blackmetal axe": {
+    "Fine wood": "6",
+    "Black metal": "20",
+    "Linen thread": "5"
+  },
+  "Blackmetal bolt": {
+    "Wood": "8",
+    "Black metal": "2",
+    "Feathers": "2"
+  },
+  "Blackmetal knife": {
+    "Fine wood": "4",
+    "Black metal": "10",
+    "Linen thread": "5"
+  },
+  "Blackmetal sword": {
+    "Fine wood": "2",
+    "Black metal": "20",
+    "Linen thread": "5"
+  },
+  "Bone bolt": {
+    "Bone fragments": "8",
+    "Feathers": "2"
+  },
+  "Bone tower shield": {
+    "Wood": "10",
+    "Bone fragments": "10",
+    "Skeleton trophy": "3"
+  },
+  "Bronze atgeir": {
+    "Wood": "10",
+    "Bronze": "8",
+    "Leather scraps": "2"
+  },
+  "Bronze axe": {
+    "Wood": "4",
+    "Bronze": "8",
+    "Leather Scraps": "2"
+  },
+  "Bronze buckler": {
+    "Bronze": "10",
+    "Wood": "4"
+  },
+  "Bronze mace": {
+    "Wood": "4",
+    "Bronze": "8",
+    "Leather Scraps": "3"
+  },
+  "Bronze pickaxe": {
+    "Core wood": "3",
+    "Bronze": "10"
+  },
+  "Bronze spear": {
+    "Wood": "5",
+    "Bronze": "6",
+    "Deer hide": "2"
+  },
+  "Bronze sword": {
+    "Wood": "2",
+    "Bronze": "8",
+    "Leather scraps": "2"
+  },
+  "Bronzehead arrow": {
+    "Wood": "8",
+    "Bronze": "1",
+    "Feathers": "2"
+  },
+  "Butcher knife": {
+    "Wood": "2",
+    "Tin": "4"
+  },
+  "Carapace arrow": {
+    "Carapace": "4",
+    "Feathers": "2",
+    "Wood": "8"
+  },
+  "Carapace bolt": {
+    "Wood": "8",
+    "Carapace": "2",
+    "Feathers": "2"
+  },
+  "Carapace buckler": {
+    "Carapace": "16",
+    "Scale hide": "3",
+    "Refined eitr": "10"
+  },
+  "Carapace shield": {
+    "Carapace": "20",
+    "Scale hide": "3",
+    "Refined eitr": "10"
+  },
+  "Carapace spear": {
+    "Yggdrasil wood": "10",
+    "Carapace": "4",
+    "Mandible": "2"
+  },
+  "Club": {
+    "Wood": "6"
+  },
+  "Copper knife": {
+    "Wood": "2",
+    "Copper": "8"
+  },
+  "Crude bow": {
+    "Wood": "10",
+    "Leather scraps": "8"
+  },
+  "Crystal battleaxe": {
+    "Ancient bark": "40",
+    "Silver": "30",
+    "Crystal": "10"
+  },
+  "Dead raiser": {
+    "Bone fragments": "10",
+    "Refined eitr": "16",
+    "Skeleton trophy": "4"
+  },
+  "Demolisher": {
+    "Yggdrasil wood": "10",
+    "Iron": "20",
+    "Refined eitr": "10"
+  },
+  "Draugr fang": {
+    "Ancient bark": "10",
+    "Silver": "20",
+    "Deer hide": "2",
+    "Guck": "10"
+  },
+  "Dvergr lantern": {
+    "Bronze": "2",
+    "Surtling core": "1",
+    "Crystal": "1"
+  },
+  "Dyrnwyn": {
+    "Fine wood": "2",
+    "Flametal": "10",
+    "Surtling core": "20",
+    "Leather scraps": "3"
+  },
+  "Fang spear": {
+    "Ancient bark": "10",
+    "Wolf fang": "4",
+    "Leather scraps": "2",
+    "Silver": "2"
+  },
+  "Finewood bow": {
+    "Fine wood": "10",
+    "Core wood": "10",
+    "Deer hide": "2"
+  },
+  "Fire arrow": {
+    "Wood": "8",
+    "Resin": "8",
+    "Feathers": "2"
+  },
+  "Flesh rippers": {
+    "Fenris hair": "10",
+    "Fenris claw": "6",
+    "Silver": "10"
+  },
+  "Flint axe": {
+    "Wood": "4",
+    "Flint": "6"
+  },
+  "Flint knife": {
+    "Wood": "2",
+    "Flint": "4",
+    "Leather scraps": "2"
+  },
+  "Flint spear": {
+    "Wood": "5",
+    "Flint": "10",
+    "Leather scraps": "2"
+  },
+  "Flinthead arrow": {
+    "Wood": "8",
+    "Flint": "2",
+    "Feathers": "2"
+  },
+  "Frost arrow": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2",
+    "Freeze gland": "1"
+  },
+  "Frostner": {
+    "Ancient bark": "10",
+    "Silver": "30",
+    "Ymir flesh": "5",
+    "Freeze gland": "5"
+  },
+  "Himminafl": {
+    "Yggdrasil wood": "10",
+    "Refined eitr": "15",
+    "Silver": "5",
+    "Mandible": "2"
+  },
+  "Huntsman bow": {
+    "Fine wood": "10",
+    "Iron": "20",
+    "Feathers": "10",
+    "Deer hide": "2"
+  },
+  "Iron atgeir": {
+    "Wood": "10",
+    "Iron": "30",
+    "Leather scraps": "2"
+  },
+  "Iron axe": {
+    "Wood": "4",
+    "Iron": "20",
+    "Leather Scraps": "2"
+  },
+  "Iron bolt": {
+    "Wood": "8",
+    "Feathers": "2",
+    "Iron": "1"
+  },
+  "Iron buckler": {
+    "Iron": "10",
+    "Ancient bark": "4"
+  },
+  "Iron mace": {
+    "Wood": "4",
+    "Iron": "20",
+    "Leather scraps": "3"
+  },
+  "Iron pickaxe": {
+    "Core wood": "3",
+    "Iron": "20"
+  },
+  "Iron sledge": {
+    "Ancient bark": "10",
+    "Iron": "30",
+    "Ymir flesh": "4",
+    "Draugr Elite trophy": "1"
+  },
+  "Iron sword": {
+    "Wood": "2",
+    "Iron": "20",
+    "Leather scraps": "3"
+  },
+  "Iron tower shield": {
+    "Fine wood": "15",
+    "Iron": "10"
+  },
+  "Ironhead arrow": {
+    "Wood": "8",
+    "Iron": "1",
+    "Feathers": "2"
+  },
+  "Jotun bane": {
+    "Yggdrasil wood": "5",
+    "Iron": "15",
+    "Bilebag": "3",
+    "Refined eitr": "10"
+  },
+  "Krom": {
+    "Iron": "30",
+    "Bronze": "20",
+    "Scale hide": "5"
+  },
+  "Mistwalker": {
+    "Fine wood": "3",
+    "Iron": "15",
+    "Refined eitr": "10",
+    "Wisp": "3"
+  },
+  "Needle arrow": {
+    "Needle": "4",
+    "Feathers": "2"
+  },
+  "Obsidian arrow": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2"
+  },
+  "Ooze bomb": {
+    "Leather scraps": "5",
+    "Ooze": "5",
+    "Resin": "3"
+  },
+  "Poison arrow": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2",
+    "Ooze": "2"
+  },
+  "Porcupine": {
+    "Fine wood": "5",
+    "Iron": "20",
+    "Needle": "5",
+    "Linen thread": "10"
+  },
+  "Serpent scale shield": {
+    "Fine wood": "10",
+    "Iron": "4",
+    "Serpent scale": "8"
+  },
+  "Silver arrow": {
+    "Wood": "8",
+    "Silver": "1",
+    "Feathers": "2"
+  },
+  "Silver knife": {
+    "Wood": "2",
+    "Silver": "10",
+    "Leather scraps": "3",
+    "Iron": "2"
+  },
+  "Silver shield": {
+    "Fine wood": "10",
+    "Silver": "8"
+  },
+  "Silver sword": {
+    "Wood": "2",
+    "Silver": "40",
+    "Leather scraps": "3",
+    "Iron": "5"
+  },
+  "Skoll and Hati": {
+    "Fine wood": "4",
+    "Iron": "10",
+    "Black metal": "10"
+  },
+  "Spinesnap": {
+    "Fine wood": "10",
+    "Bone fragments": "40",
+    "Refined eitr": "10"
+  },
+  "Staff of embers": {
+    "Yggdrasil wood": "20",
+    "Surtling core": "4",
+    "Refined eitr": "16"
+  },
+  "Staff of frost": {
+    "Yggdrasil wood": "20",
+    "Freeze gland": "4",
+    "Refined eitr": "16"
+  },
+  "Staff of protection": {
+    "Yggdrasil wood": "20",
+    "Blood clot": "4",
+    "Refined eitr": "16"
+  },
+  "Stagbreaker": {
+    "Core wood": "20",
+    "Deer trophy": "5",
+    "Leather scraps": "2"
+  },
+  "Stone axe": {
+    "Wood": "5",
+    "Stone": "4"
+  },
+  "Torch": {
+    "Wood": "1",
+    "Resin": "1"
+  },
+  "Wood arrow": {
+    "Wood": "8"
+  },
+  "Wood shield": {
+    "Wood": "10",
+    "Resin": "4",
+    "Leather scraps": "4"
+  },
+  "Wood tower shield": {
+    "Wood": "10",
+    "Leather scraps": "4"
+  },
+  "Wooden missile": {
+    "Core wood": "5",
+    "Feathers": "2"
+  }
+}

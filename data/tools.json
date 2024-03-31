@@ -1,0 +1,61 @@
+{
+  "Antler pickaxe": {
+    "Wood": "10",
+    "Hard antler": "1"
+  },
+  "Black metal pickaxe": {
+    "Yggdrasil wood": "3",
+    "Black metal": "25"
+  },
+  "Blackmetal axe": {
+    "Fine wood": "6",
+    "Black metal": "20",
+    "Linen thread": "5"
+  },
+  "Bronze axe": {
+    "Wood": "4",
+    "Bronze": "8",
+    "Leather Scraps": "2"
+  },
+  "Bronze pickaxe": {
+    "Core wood": "3",
+    "Bronze": "10"
+  },
+  "Cultivator": {
+    "Core wood": "5",
+    "Bronze": "5"
+  },
+  "Flint axe": {
+    "Wood": "4",
+    "Flint": "6"
+  },
+  "Hammer": {
+    "Wood": "3",
+    "Stone": "2"
+  },
+  "Hoe": {
+    "Wood": "5",
+    "Stone": "2"
+  },
+  "Horn of Celebration": {
+    "Bronze": "2",
+    "Troll hide": "2",
+    "Iron": "2"
+  },
+  "Iron pickaxe": {
+    "Core wood": "3",
+    "Iron": "20"
+  },
+  "Stone axe": {
+    "Wood": "5",
+    "Stone": "4"
+  },
+  "Tankard": {
+    "Fine wood": "5",
+    "Resin": "2"
+  },
+  "Torch": {
+    "Wood": "1",
+    "Resin": "1"
+  }
+}

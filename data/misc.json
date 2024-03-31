@@ -1,0 +1,104 @@
+{
+  "Ballista": {
+    "Black Metal": "10",
+    "Yggdrasil wood": "10",
+    "Mechanical spring": "3"
+  },
+  "Black marble pile": {
+    "Black marble": "50"
+  },
+  "Bonfire": {
+    "Surtling core": "1",
+    "Ancient bark": "5",
+    "Core wood": "5",
+    "Fine wood": "5"
+  },
+  "Campfire": {
+    "Stone": "5",
+    "Wood": "2"
+  },
+  "Cart": {
+    "Wood": "20",
+    "Bronze nails": "10"
+  },
+  "Cartography table": {
+    "Fine wood": "10",
+    "Bone fragments": "10",
+    "Bronze": "2",
+    "Leather scraps": "5",
+    "Raspberries": "4"
+  },
+  "Coal pile": {
+    "Coal": "50"
+  },
+  "Coin pile": {
+    "Coins": "999"
+  },
+  "Coin stack": {
+    "Coins": "99"
+  },
+  "Core wood stack": {
+    "Core wood": "50"
+  },
+  "Fine wood stack": {
+    "Fine wood": "50"
+  },
+  "Firepit iron": {
+    "Iron pit": "1",
+    "Wood": "1"
+  },
+  "Hearth": {
+    "Stone": "15"
+  },
+  "Karve": {
+    "Fine wood": "30",
+    "Deer hide": "10",
+    "Resin": "20",
+    "Bronze nails": "80"
+  },
+  "Longship": {
+    "Iron nails": "100",
+    "Deer hide": "10",
+    "Fine wood": "40",
+    "Ancient bark": "40"
+  },
+  "Paved road": {
+    "Stone": "1"
+  },
+  "Portal": {
+    "Greydwarf eye": "10",
+    "Fine wood": "20",
+    "Surtling core": "2"
+  },
+  "Raft": {
+    "Wood": "20",
+    "Leather scraps": "6",
+    "Resin": "6"
+  },
+  "Stone pile": {
+    "Stone": "50"
+  },
+  "Trap": {
+    "Black metal": "5",
+    "Bronze nails": "10",
+    "Mechanical spring": "1"
+  },
+  "Treasure chest": {
+    "Coins": "99",
+    "Ruby": "5",
+    "Silver Necklace": "2",
+    "Fine wood": "8",
+    "Silver": "2"
+  },
+  "Ward": {
+    "Fine wood": "5",
+    "Greydwarf eye": "5",
+    "Surtling core": "1"
+  },
+  "Wood stack": {
+    "Wood": "50"
+  },
+  "Yggdrasil wood stack": {
+    "Yggdrasil wood": "50"
+  }
+}

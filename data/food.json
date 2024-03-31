@@ -1,0 +1,146 @@
+{
+  "Black soup": {
+    "Bloodbag": "1",
+    "Honey": "1",
+    "Turnip": "1"
+  },
+  "Blood pudding": {
+    "Thistle": "2",
+    "Bloodbag": "2",
+    "Barley flour": "4"
+  },
+  "Boar jerky": {
+    "Boar meat": "1",
+    "Honey": "1"
+  },
+  "Bread": {
+    "Bread dough": "1"
+  },
+  "Carrot soup": {
+    "Mushroom": "1",
+    "Carrot": "3"
+  },
+  "Cooked boar meat": {
+    "Boar meat": "1"
+  },
+  "Cooked chicken meat": {
+    "Chicken meat": "1"
+  },
+  "Cooked deer meat": {
+    "Deer meat": "1"
+  },
+  "Cooked egg": {
+    "Egg": "1"
+  },
+  "Cooked fish": {
+    "Raw fish": "1"
+  },
+  "Cooked hare meat": {
+    "Hare meat": ""
+  },
+  "Cooked lox meat": {
+    "Lox meat": "1"
+  },
+  "Cooked seeker meat": {
+    "Seeker meat": "1"
+  },
+  "Cooked serpent meat": {
+    "Serpent meat": "1"
+  },
+  "Cooked wolf meat": {
+    "Wolf meat": "1"
+  },
+  "Deer stew": {
+    "Blueberries": "1",
+    "Carrot": "1",
+    "Cooked deer meat": "1"
+  },
+  "Eyescream": {
+    "Greydwarf eye": "3",
+    "Freeze gland": "1"
+  },
+  "Fish n' bread": {
+    "Uncooked fish n' bread": "1"
+  },
+  "Fish wraps": {
+    "Cooked fish": "2",
+    "Barley flour": "4"
+  },
+  "Grilled neck tail": {
+    "Neck tail": "1"
+  },
+  "Honey glazed chicken": {
+    "Uncooked honey glazed chicken": "1"
+  },
+  "Lox meat pie": {
+    "Unbaked Lox Pie": "1"
+  },
+  "Meat platter": {
+    "Uncooked meat platter": "1"
+  },
+  "Minced Meat Sauce": {
+    "Boar meat": "1",
+    "Neck tail": "1",
+    "Carrot": "1"
+  },
+  "Misthare supreme": {
+    "Uncooked misthare supreme": "1"
+  },
+  "Muckshake": {
+    "Ooze": "1",
+    "Raspberries": "2",
+    "Blueberries": "2"
+  },
+  "Mushroom omelette": {
+    "Egg": "3",
+    "Jotun puffs": "3"
+  },
+  "Onion soup": {
+    "Onion": "3"
+  },
+  "Queen's jam": {
+    "Raspberries": "8",
+    "Blueberries": "6"
+  },
+  "Salad": {
+    "Jotun puffs": "3",
+    "Onion": "3",
+    "Cloudberries": "3"
+  },
+  "Sausages": {
+    "Entrails": "4",
+    "Boar meat": "1",
+    "Thistle": "1"
+  },
+  "Seeker aspic": {
+    "Seeker meat": "2",
+    "Magecap": "2",
+    "Royal jelly": "2"
+  },
+  "Serpent stew": {
+    "Mushroom": "1",
+    "Cooked serpent meat": "1",
+    "Honey": "2"
+  },
+  "Stuffed mushroom": {
+    "Uncooked stuffed mushroom": "1"
+  },
+  "Turnip stew": {
+    "Boar meat": "1",
+    "Turnip": "3"
+  },
+  "Wolf jerky": {
+    "Wolf meat": "1",
+    "Honey": "1"
+  },
+  "Wolf skewer": {
+    "Wolf meat": "1",
+    "Mushroom": "2",
+    "Onion": "1"
+  },
+  "Yggdrasil porridge": {
+    "Sap": "4",
+    "Barley": "3",
+    "Royal jelly": "2"
+  }
+}

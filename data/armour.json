@@ -1,0 +1,51 @@
+{
+  "Cape of Odin (DLC)": {
+    "Leather scraps": "10",
+    "Coal": "4"
+  },
+  "Feather cape": {
+    "Feather": "10",
+    "Scale hide": "5",
+    "Refined eitr": "20"
+  },
+  "Fishing hat": {
+    "Perch": "1",
+    "Pike": "1",
+    "Tuna": "1",
+    "Tetra": "1",
+    "Trollfish": "1",
+    "Giant herring": "1",
+    "Grouper": "1",
+    "Coral cod": "1",
+    "Anglerfish": "1",
+    "Northern salmon": "1",
+    "Magmafish": "1",
+    "Pufferfish": "1"
+  },
+  "Hood of Odin (DLC)": {
+    "Leather scraps": "10",
+    "Coal": "4"
+  },
+  "Linen cape": {
+    "Linen thread": "20",
+    "Silver": "1"
+  },
+  "Lox cape": {
+    "Lox pelt": "6",
+    "Silver": "2"
+  },
+  "Pointy Hat": {
+    "Deer hide": "3",
+    "Coal": "5",
+    "Bronze": "1"
+  },
+  "Troll hide cape": {
+    "Troll hide": "10",
+    "Bone fragments": "10"
+  },
+  "Wolf fur cape": {
+    "Wolf pelt": "6",
+    "Silver": "4",
+    "Wolf trophy": "1"
+  }
+}

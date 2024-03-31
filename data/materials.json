@@ -1,0 +1,58 @@
+{
+  "Barley flour": {
+    "Barley": "1"
+  },
+  "Bread": {
+    "Bread dough": "1"
+  },
+  "Bronze nails": {
+    "Bronze": "1"
+  },
+  "Cooked chicken meat": {
+    "Chicken meat": "1"
+  },
+  "Cooked fish": {
+    "Raw fish": "1"
+  },
+  "Cooked lox meat": {
+    "Lox meat": "1"
+  },
+  "Cooked serpent meat": {
+    "Serpent meat": "1"
+  },
+  "Fish n' bread": {
+    "Uncooked fish n' bread": "1"
+  },
+  "Honey glazed chicken": {
+    "Uncooked honey glazed chicken": "1"
+  },
+  "Iron nails": {
+    "Iron": "1"
+  },
+  "Linen thread": {
+    "Flax": "1"
+  },
+  "Lox meat pie": {
+    "Unbaked Lox Pie": "1"
+  },
+  "Meat platter": {
+    "Uncooked meat platter": "1"
+  },
+  "Mechanical spring": {
+    "Refined eitr": "1",
+    "Iron": "3"
+  },
+  "Misthare supreme": {
+    "Uncooked misthare supreme": "1"
+  },
+  "Refined eitr": {
+    "Sap": "1",
+    "Soft tissue": "1"
+  },
+  "Sharpening stone": {
+    "Stone": "5"
+  },
+  "Stuffed mushroom": {
+    "Uncooked stuffed mushroom": "1"
+  }
+}

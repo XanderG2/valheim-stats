@@ -1,0 +1,195 @@
+{
+  "Adze": {
+    "Fine wood": "10",
+    "Bronze": "3"
+  },
+  "Anvils": {
+    "Wood": "5",
+    "Bronze": "2"
+  },
+  "Artisan table": {
+    "Dragon tear": "2",
+    "Wood": "10"
+  },
+  "Barber station": {
+    "Fine wood": "10",
+    "Barber kit": "1",
+    "Bronze nails": "5",
+    "Troll hide": "5"
+  },
+  "Beehive": {
+    "Wood": "10",
+    "Queen bee": "1"
+  },
+  "Black forge": {
+    "Black marble": "10",
+    "Yggdrasil wood": "10",
+    "Black core": "5"
+  },
+  "Black forge cooler": {
+    "Iron": "5",
+    "Copper": "5",
+    "Black marble": "4"
+  },
+  "Blast furnace": {
+    "Stone": "",
+    "Surtling core": "",
+    "Iron": "",
+    "Fine wood": ""
+  },
+  "Butcher's table": {
+    "Ancient bark": "2",
+    "Core wood": "4",
+    "Fine wood": "4",
+    "Silver": "2"
+  },
+  "Cauldron": {
+    "Tin": "10"
+  },
+  "Charcoal kiln": {
+    "Stone": "20",
+    "Surtling core": "5"
+  },
+  "Chopping block": {
+    "Wood": "10",
+    "Flint": "10"
+  },
+  "Cooking station": {
+    "Wood": "2"
+  },
+  "Eitr refinery": {
+    "Black marble": "20",
+    "Black metal": "5",
+    "Yggdrasil wood": "10",
+    "Black core": "5",
+    "Sap": "3"
+  },
+  "Fermenter": {
+    "Fine wood": "30",
+    "Bronze": "5",
+    "Resin": "10"
+  },
+  "Forge": {
+    "Stone": "4",
+    "Coal": "4",
+    "Wood": "10",
+    "Copper": "6"
+  },
+  "Forge bellows": {
+    "Wood": "5",
+    "Deer hide": "5",
+    "Chain": "4"
+  },
+  "Forge cooler": {
+    "Fine Wood": "25",
+    "Copper": "10"
+  },
+  "Forge toolrack": {
+    "Iron": "15",
+    "Wood": "10"
+  },
+  "Galdr table": {
+    "Black metal": "10",
+    "Yggdrasil wood": "20",
+    "Black core": "5",
+    "Refined eitr": "5"
+  },
+  "Grinding wheel": {
+    "Wood": "25",
+    "Sharpening stone": "1"
+  },
+  "Iron cooking station": {
+    "Chain": "3",
+    "Iron": "3"
+  },
+  "Mortar and pestle": {
+    "Core wood": "4",
+    "Fine wood": "6",
+    "Black marble": "8"
+  },
+  "Obliterator": {
+    "Iron": "8",
+    "Copper": "4",
+    "Thunder stone": "1"
+  },
+  "Pots and pans": {
+    "Iron": "5",
+    "Copper": "5",
+    "Black metal": "5",
+    "Fine wood": "10"
+  },
+  "Rune table": {
+    "Black marble": "10",
+    "Yggdrasil wood": "5",
+    "Refined eitr": "10"
+  },
+  "Sap extractor": {
+    "Yggdrasil wood": "10",
+    "Black metal": "5",
+    "Dvergr extractor": "1"
+  },
+  "Smelter": {
+    "Stone": "20",
+    "Surtling core": "5"
+  },
+  "Smith's anvil": {
+    "Iron": "20",
+    "Wood": "5"
+  },
+  "Spice rack": {
+    "Dandelion": "3",
+    "Carrot": "2",
+    "Mushroom": "5",
+    "Thistle": "3",
+    "Turnip": "3"
+  },
+  "Spinning wheel": {
+    "Fine wood": "20",
+    "Iron nails": "10",
+    "Leather scraps": "5"
+  },
+  "Stone oven": {
+    "Iron": "15",
+    "Stone": "20",
+    "Surtling core": "4"
+  },
+  "Stonecutter": {
+    "Wood": "10",
+    "Iron": "2",
+    "Stone": "4"
+  },
+  "Tanning rack": {
+    "Wood": "10",
+    "Flint": "15",
+    "Leather scraps": "20",
+    "Deer hide": "5"
+  },
+  "Tool shelf": {
+    "Iron": "4",
+    "Fine wood": "10",
+    "Obsidian": "4"
+  },
+  "Unfading candles": {
+    "Black marble": "10",
+    "Skeleton trophy": "3",
+    "Refined eitr": "10",
+    "Resin": "15"
+  },
+  "Vice": {
+    "Iron": "5",
+    "Copper": "8",
+    "Mechanical spring": "2"
+  },
+  "Windmill": {
+    "Stone": "20",
+    "Wood": "30",
+    "Iron nails": "30"
+  },
+  "Wisp fountain": {
+    "Stone": "10",
+    "Torn spirit": "1"
+  },
+  "Workbench": {
+    "Wood": "10"
+  }
+}

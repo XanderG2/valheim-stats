@@ -1,0 +1,321 @@
+{
+  "Black marble 1x1x1": {
+    "Black marble": "2"
+  },
+  "Black marble 2x1x1": {
+    "Black marble": "4"
+  },
+  "Black marble 2x2x2": {
+    "Black marble": "8"
+  },
+  "Black marble arch": {
+    "Black marble": "5"
+  },
+  "Black marble column, small": {
+    "Black marble": "2"
+  },
+  "Black marble column, wide": {
+    "Black marble": "4"
+  },
+  "Black marble cornice": {
+    "Black marble": "5"
+  },
+  "Black marble cornice, corner": {
+    "Black marble": "6"
+  },
+  "Black marble floor": {
+    "Black marble": "4"
+  },
+  "Black marble floor, triangle": {
+    "Black marble": "3"
+  },
+  "Black marble plinth": {
+    "Black marble": "5"
+  },
+  "Black marble plinth, corner": {
+    "Black marble": "6"
+  },
+  "Black marble quarter spire": {
+    "Black marble": "2"
+  },
+  "Black marble stair": {
+    "Black marble": "8"
+  },
+  "Cage floor 1x1": {
+    "Iron": "1"
+  },
+  "Cage floor 2x2": {
+    "Iron": "2"
+  },
+  "Cage wall 1x1": {
+    "Iron": "1"
+  },
+  "Cage wall 2x2": {
+    "Iron": "2"
+  },
+  "Carved Darkwood divider": {
+    "Fine wood": "2",
+    "Tar": "1"
+  },
+  "Crystal wall 1x1": {
+    "Crystal": "2"
+  },
+  "Darkwood arch": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 2m": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 4m": {
+    "Wood": "4",
+    "Tar": "1"
+  },
+  "Darkwood gate": {
+    "Wood": "16",
+    "Iron": "4",
+    "Tar": "2"
+  },
+  "Darkwood pole 2m": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood pole 4m": {
+    "Wood": "4",
+    "Tar": "1"
+  },
+  "Dvergr metal wall": {
+    "Copper": "2"
+  },
+  "Dvergr sharp stakes": {
+    "Yggdrasil wood": "5",
+    "Iron": "2"
+  },
+  "Dvergr spiral left stair": {
+    "Yggdrasil wood": "5",
+    "Copper": "2"
+  },
+  "Dvergr spiral right stair": {
+    "Yggdrasil wood": "5",
+    "Copper": "2"
+  },
+  "Dvergr stakewall": {
+    "Yggdrasil wood": "8",
+    "Iron": "8"
+  },
+  "Hexagonal gate": {
+    "Yggdrasil wood": "8",
+    "Copper": "8"
+  },
+  "Iron gate": {
+    "Iron": "4"
+  },
+  "Log beam 26\u00b0": {
+    "Core wood": "1"
+  },
+  "Log beam 2m": {
+    "Core wood": "1"
+  },
+  "Log beam 45\u00b0": {
+    "Core wood": "1"
+  },
+  "Log beam 4m": {
+    "Core wood": "2"
+  },
+  "Log pole 2m": {
+    "Core wood": "1"
+  },
+  "Log pole 4m": {
+    "Core wood": "2"
+  },
+  "Raven adornment": {
+    "Fine wood": "10",
+    "Tar": "1"
+  },
+  "Roundpole fence": {
+    "Wood": "1"
+  },
+  "Sharp stakes": {
+    "Wood": "6",
+    "Core wood": "4"
+  },
+  "Shingle roof 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof i-corner 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof i-corner 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof o-corner 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof o-corner 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof ridge 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof ridge 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Stakewall": {
+    "Wood": "4"
+  },
+  "Stone arch": {
+    "Stone": "4"
+  },
+  "Stone floor 2x2": {
+    "Stone": "6"
+  },
+  "Stone pillar": {
+    "Stone": "5"
+  },
+  "Stone stair": {
+    "Stone": "8"
+  },
+  "Stone wall 1x1": {
+    "Stone": "3"
+  },
+  "Stone wall 2x1": {
+    "Stone": "4"
+  },
+  "Stone wall 4x2": {
+    "Stone": "6"
+  },
+  "Thatch roof 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof 45\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof i-corner 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof i-corner 45\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof o-corner 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof o-corner 45\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof ridge 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof ridge 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wolf adornment": {
+    "Fine wood": "10",
+    "Tar": "1"
+  },
+  "Wood beam 1m": {
+    "Wood": "1"
+  },
+  "Wood beam 26\u00b0": {
+    "Wood": "2"
+  },
+  "Wood beam 2m": {
+    "Wood": "2"
+  },
+  "Wood beam 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wood door": {
+    "Wood": "4"
+  },
+  "Wood dragon adornment": {
+    "Fine wood": "10"
+  },
+  "Wood floor 1x1": {
+    "Wood": "1"
+  },
+  "Wood floor 2x2": {
+    "Wood": "2"
+  },
+  "Wood gate": {
+    "Wood": "12"
+  },
+  "Wood iron beam": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood iron beam 26\u00b0": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood iron beam 45\u00b0": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood iron pole": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood ladder": {
+    "Wood": "2"
+  },
+  "Wood pole 1m": {
+    "Wood": "1"
+  },
+  "Wood pole 2m": {
+    "Wood": "2"
+  },
+  "Wood roof cross 26\u00b0": {
+    "Wood": "2"
+  },
+  "Wood roof cross 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wood shutter": {
+    "Wood": "4",
+    "Bronze nails": "2"
+  },
+  "Wood stair": {
+    "Wood": "2"
+  },
+  "Wood wall": {
+    "Wood": "2"
+  },
+  "Wood wall 1x1": {
+    "Wood": "1"
+  },
+  "Wood wall 26\u00b0": {
+    "Wood": "2"
+  },
+  "Wood wall 26\u00b0 (inverted)": {
+    "Wood": "2"
+  },
+  "Wood wall 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wood wall 45\u00b0 (inverted)": {
+    "Wood": "2"
+  },
+  "Wood wall half": {
+    "Wood": "1"
+  }
+}
