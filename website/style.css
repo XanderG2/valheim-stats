@@ -6,3 +6,7 @@
 .f {
   display: flex;
 }
+
+.noNewLine {
+  display: inline;
+}

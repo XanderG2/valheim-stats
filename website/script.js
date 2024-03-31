@@ -97,7 +97,7 @@ function view() {
     const div3 = document.createElement("div");
     div3.appendChild(br);
     div3.appendChild(text);
-    div3.style.display = "inline";
+    div3.className = "noNewLine";
     totalHTML.appendChild(div3);
   }
   div.appendChild(totalHTML);
