@@ -7,8 +7,7 @@ let total = Object.create(null);
 
 function mainPage() {
   const viewButton = document.createElement("button");
-  const viewButtonText = document.createTextNode("See Total");
-  viewButton.appendChild(viewButtonText);
+  viewButton.textContent = "See Total";
   viewButton.onclick = function () {
     view();
   };
@@ -26,8 +25,7 @@ function mainPage() {
   ];
   for (const buttonText of buttons) {
     const button = document.createElement("button");
-    const text = document.createTextNode(buttonText);
-    button.appendChild(text);
+    button.textContent = buttonText;
     button.onclick = function () {
       openRecipes(buttonText);
     };
@@ -41,8 +39,7 @@ async function openRecipes(JSONFile) {
   const data = await response.json();
   div.innerHTML = "";
   const returnButton = document.createElement("button");
-  const returnText = document.createTextNode("Return");
-  returnButton.appendChild(returnText);
+  returnButton.textContent = "Return";
   returnButton.onclick = () => {
     div.innerHTML = "";
     mainPage();
@@ -51,14 +48,11 @@ async function openRecipes(JSONFile) {
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
     const button = document.createElement("button");
-    const buttonText = document.createTextNode(recipe);
-    button.appendChild(buttonText);
-    button.style.margin = "0";
-    button.style.padding = "0";
+    button.textContent = recipe;
+    button.className = "noMP";
     button.onclick = () => {
       addRecipe(ingredients);
     };
-
     const p = document.createElement("p");
     let string = "";
     for (const [ingredient, amount] of Object.entries(ingredients)) {
@@ -67,13 +61,10 @@ async function openRecipes(JSONFile) {
     string = string.substring(0, string.length - 2);
     const text = document.createTextNode(string);
     p.appendChild(text);
-    p.style.margin = "0";
-    p.style.padding = "0";
+    p.className = "noMP";
     subdiv.appendChild(button);
     subdiv.appendChild(p);
-    subdiv.style.margin = "0";
-    subdiv.style.padding = "0";
-    subdiv.style.display = "flex";
+    subdiv.className = "noMP f";
     div.appendChild(subdiv);
   }
 }
@@ -93,8 +84,7 @@ function addRecipe(ingredients) {
 function view() {
   div.innerHTML = "";
   const returnButton = document.createElement("button");
-  const returnText = document.createTextNode("Return");
-  returnButton.appendChild(returnText);
+  returnButton.textContent = "Return";
   returnButton.onclick = () => {
     div.innerHTML = "";
     mainPage();

@@ -1,0 +1,8 @@
+.noMP {
+  margin: 0;
+  padding: 0;
+}
+
+.f {
+  display: flex;
+}
