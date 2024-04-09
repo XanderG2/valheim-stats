@@ -1,5 +1,7 @@
 const main = document.getElementById("main");
-const resultsDiv = document.getElementById("results")
+const resultsDiv = document.getElementById("results");
+const buttonsDiv = document.getElementById("buttons");
+const navbar = document.getElementById("navbar");
 let total = Object.create(null);
 
 function mainPage() {
@@ -14,23 +16,16 @@ function mainPage() {
     "tools",
     "weapons",
   ];
-  form = document.createElement("form");
-  form.addEventListener("submit", (event) => {event.preventDefault()})
-  form.setAttribute("onsubmit", "openRecipesPrep()")
   select = document.createElement("select");
   select.id = "select"
+  select.setAttribute("onchange", "openRecipesPrep()")
   for (const optionText of options) {
     const option = document.createElement("option");
     option.textContent = optionText;
     option.value = optionText;
     select.appendChild(option);
   }
-  submitButton = document.createElement("input");
-  submitButton.type = "submit";
-  submitButton.value = "Submit";
-  form.appendChild(select);
-  form.appendChild(submitButton);
-  main.appendChild(form);
+  navbar.appendChild(select);
 }
 
 function openRecipesPrep() {
@@ -40,14 +35,7 @@ function openRecipesPrep() {
 async function openRecipes(JSONFile) {
   const response = await fetch(`../data/${JSONFile}.json`);
   const data = await response.json();
-  main.innerHTML = "";
-  const returnButton = document.createElement("button");
-  returnButton.textContent = "Return";
-  returnButton.onclick = () => {
-    main.innerHTML = "";
-    mainPage();
-  };
-  main.appendChild(returnButton);
+  buttonsDiv.innerHTML = "";
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
     const button = document.createElement("button");
@@ -68,7 +56,7 @@ async function openRecipes(JSONFile) {
     subdiv.appendChild(button);
     subdiv.appendChild(p);
     subdiv.className = "noMP f";
-    main.appendChild(subdiv);
+    buttonsDiv.appendChild(subdiv);
   }
 }
 
@@ -100,3 +88,4 @@ function view() {
 }
 
 mainPage();
+openRecipesPrep();
