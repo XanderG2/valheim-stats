@@ -10,3 +10,7 @@
 .noNewLine {
   display: inline;
 }
+
+body {
+  display:flex;
+}

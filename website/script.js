@@ -1,18 +1,9 @@
-// @ts-check
-const div2 = document.getElementById("buttons");
-if (!div2) throw new Error("Couldn't find buttons");
-const div = div2;
-/** @type {Record<string, number>} */
+const main = document.getElementById("main");
+const resultsDiv = document.getElementById("results")
 let total = Object.create(null);
 
 function mainPage() {
-  const viewButton = document.createElement("button");
-  viewButton.textContent = "See Total";
-  viewButton.onclick = function () {
-    view();
-  };
-  div.appendChild(viewButton);
-  const buttons = [
+  const options = [
     "armour",
     "building",
     "crafting",
@@ -23,28 +14,40 @@ function mainPage() {
     "tools",
     "weapons",
   ];
-  for (const buttonText of buttons) {
-    const button = document.createElement("button");
-    button.textContent = buttonText;
-    button.onclick = function () {
-      openRecipes(buttonText);
-    };
-    div.appendChild(button);
+  form = document.createElement("form");
+  form.addEventListener("submit", (event) => {event.preventDefault()})
+  form.setAttribute("onsubmit", "openRecipesPrep()")
+  select = document.createElement("select");
+  select.id = "select"
+  for (const optionText of options) {
+    const option = document.createElement("option");
+    option.textContent = optionText;
+    option.value = optionText;
+    select.appendChild(option);
   }
+  submitButton = document.createElement("input");
+  submitButton.type = "submit";
+  submitButton.value = "Submit";
+  form.appendChild(select);
+  form.appendChild(submitButton);
+  main.appendChild(form);
+}
+
+function openRecipesPrep() {
+  openRecipes(document.getElementById("select").value)
 }
 
 async function openRecipes(JSONFile) {
   const response = await fetch(`../data/${JSONFile}.json`);
-  /** @type {Record<string, Record<string, string>>} */
   const data = await response.json();
-  div.innerHTML = "";
+  main.innerHTML = "";
   const returnButton = document.createElement("button");
   returnButton.textContent = "Return";
   returnButton.onclick = () => {
-    div.innerHTML = "";
+    main.innerHTML = "";
     mainPage();
   };
-  div.appendChild(returnButton);
+  main.appendChild(returnButton);
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
     const button = document.createElement("button");
@@ -65,11 +68,10 @@ async function openRecipes(JSONFile) {
     subdiv.appendChild(button);
     subdiv.appendChild(p);
     subdiv.className = "noMP f";
-    div.appendChild(subdiv);
+    main.appendChild(subdiv);
   }
 }
 
-/** @param ingredients {Record<string, string>} */
 function addRecipe(ingredients) {
   for (const [ingredient, amount] of Object.entries(ingredients)) {
     const n = parseInt(amount, 10);
@@ -79,17 +81,11 @@ function addRecipe(ingredients) {
       total[ingredient] = n;
     }
   }
+  view()
 }
 
 function view() {
-  div.innerHTML = "";
-  const returnButton = document.createElement("button");
-  returnButton.textContent = "Return";
-  returnButton.onclick = () => {
-    div.innerHTML = "";
-    mainPage();
-  };
-  div.appendChild(returnButton);
+  resultsDiv.innerHTML = "";
   let totalHTML = document.createElement("div");
   for (const [ingredient, amount] of Object.entries(total)) {
     const br = document.createElement("br");
@@ -100,7 +96,7 @@ function view() {
     div3.className = "noNewLine";
     totalHTML.appendChild(div3);
   }
-  div.appendChild(totalHTML);
+  resultsDiv.appendChild(totalHTML);
 }
 
 mainPage();
