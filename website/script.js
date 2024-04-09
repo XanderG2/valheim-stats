@@ -1,8 +1,10 @@
 const main = document.getElementById("main");
 const resultsDiv = document.getElementById("results");
+const resultsRecipeDiv = document.getElementById("resultsRecipes");
 const buttonsDiv = document.getElementById("buttons");
 const navbar = document.getElementById("navbar");
 let total = Object.create(null);
+let recipeAmounts = Object.create(null);
 
 function mainPage() {
   const options = [
@@ -44,12 +46,12 @@ async function openRecipes(JSONFile) {
     const addButton = document.createElement("button");
     addButton.textContent = "+"
     addButton.onclick = () => {
-      addRecipe(ingredients);
+      addRecipe(ingredients, recipe);
     };
     const minusButton = document.createElement("button");
     minusButton.textContent = "-"
     minusButton.onclick = () => {
-      takeRecipe(ingredients);
+      takeRecipe(ingredients, recipe);
     };
     subdiv.appendChild(text);
     subdiv.appendChild(addButton);
@@ -59,7 +61,7 @@ async function openRecipes(JSONFile) {
   }
 }
 
-function addRecipe(ingredients) {
+function addRecipe(ingredients, recipe) {
   for (const [ingredient, amount] of Object.entries(ingredients)) {
     const n = parseInt(amount, 10);
     if (total[ingredient]) {
@@ -68,32 +70,55 @@ function addRecipe(ingredients) {
       total[ingredient] = n;
     }
   }
-  view()
-}
-
-function takeRecipe(ingredients) {
-  for (const [ingredient, amount] of Object.entries(ingredients)) {
-    const n = parseInt(amount, 10);
-    if (total[ingredient]) {
-      total[ingredient] = total[ingredient] - n;
-    }
+  if (recipeAmounts[recipe]) {
+    recipeAmounts[recipe] += 1;
+  } else {
+    recipeAmounts[recipe] = 1;
   }
   view()
+  console.log(recipeAmounts[recipe])
+}
+
+function takeRecipe(ingredients, recipe) {
+  for (const [ingredient, amount] of Object.entries(ingredients)) {
+    const n = parseInt(amount, 10);
+    if (recipeAmounts[recipe] > 0) {
+      total[ingredient] = total[ingredient] - n;
+    } else {
+      return
+    }
+  }
+  recipeAmounts[recipe] -= 1
+  view()
+  console.log(recipeAmounts[recipe])
 }
 
 function view() {
   resultsDiv.innerHTML = "";
+  resultsRecipeDiv.innerHTML = "";
   let totalHTML = document.createElement("div");
+  let totalHTML2 = document.createElement("div");
   for (const [ingredient, amount] of Object.entries(total)) {
     const br = document.createElement("br");
     const text = document.createTextNode(`${ingredient}: ${amount}`);
     const div3 = document.createElement("div");
-    div3.appendChild(br);
     div3.appendChild(text);
+    div3.appendChild(br);
     div3.className = "noNewLine";
     totalHTML.appendChild(div3);
   }
+  for (const [recipe, amount] of Object.entries(recipeAmounts)) {
+    console.log(recipeAmounts)
+    const br2 = document.createElement("br");
+    const text2 = document.createTextNode(`${recipe}: ${amount}`);
+    const div4 = document.createElement("div");
+    div4.appendChild(text2);
+    div4.appendChild(br2);
+    div4.className = "noNewLine";
+    totalHTML2.appendChild(div4);
+  }
   resultsDiv.appendChild(totalHTML);
+  resultsRecipeDiv.appendChild(totalHTML2);
 }
 
 mainPage();

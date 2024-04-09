@@ -15,10 +15,15 @@ main {
   display:flex;
 }
 
-#results {
+#right {
   position:fixed;
   right:0;
   width:50%;
+}
+
+#resultsRecipes {
+  position:fixed;
+  margin-top:100px;
 }
 
 #buttons {
