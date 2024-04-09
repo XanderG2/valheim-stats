@@ -46,9 +46,6 @@ async function openRecipes(JSONFile) {
     };
     const p = document.createElement("p");
     let string = "";
-    for (const [ingredient, amount] of Object.entries(ingredients)) {
-      string += `${ingredient} x${amount}, `;
-    }
     string = string.substring(0, string.length - 2);
     const text = document.createTextNode(string);
     p.appendChild(text);
