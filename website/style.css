@@ -14,3 +14,23 @@
 main {
   display:flex;
 }
+
+#results {
+  position:fixed;
+  right:0;
+  width:50%;
+}
+
+#buttons {
+  width:50%;
+}
+
+#navbar {
+  margin-bottom:10px;
+}
+
+html {
+  font-family: "Sarabun", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

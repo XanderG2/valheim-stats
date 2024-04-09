@@ -38,20 +38,22 @@ async function openRecipes(JSONFile) {
   buttonsDiv.innerHTML = "";
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
-    const button = document.createElement("button");
-    button.textContent = recipe;
-    button.className = "noMP";
-    button.onclick = () => {
+    const text = document.createElement("p");
+    text.textContent = recipe;
+    text.className = "noMP";
+    const addButton = document.createElement("button");
+    addButton.textContent = "+"
+    addButton.onclick = () => {
       addRecipe(ingredients);
     };
-    const p = document.createElement("p");
-    let string = "";
-    string = string.substring(0, string.length - 2);
-    const text = document.createTextNode(string);
-    p.appendChild(text);
-    p.className = "noMP";
-    subdiv.appendChild(button);
-    subdiv.appendChild(p);
+    const minusButton = document.createElement("button");
+    minusButton.textContent = "-"
+    minusButton.onclick = () => {
+      takeRecipe(ingredients);
+    };
+    subdiv.appendChild(text);
+    subdiv.appendChild(addButton);
+    subdiv.appendChild(minusButton);
     subdiv.className = "noMP f";
     buttonsDiv.appendChild(subdiv);
   }
@@ -64,6 +66,16 @@ function addRecipe(ingredients) {
       total[ingredient] = total[ingredient] + n;
     } else {
       total[ingredient] = n;
+    }
+  }
+  view()
+}
+
+function takeRecipe(ingredients) {
+  for (const [ingredient, amount] of Object.entries(ingredients)) {
+    const n = parseInt(amount, 10);
+    if (total[ingredient]) {
+      total[ingredient] = total[ingredient] - n;
     }
   }
   view()
