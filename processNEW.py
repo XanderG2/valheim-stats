@@ -1,9 +1,10 @@
 from bs4 import BeautifulSoup
-from subprocess import check_output
+import requests
 from json import dumps
+from processSetPages import findSet
 
 def find_mats(link):
-    data = check_output(["curl", f"https://valheim.fandom.com{link}"])
+    data = requests.get(f"https://valheim.fandom.com{link}").content
     soup = BeautifulSoup(data, features="html.parser")
     try:
         name = soup.title.string.split(" |")[0]
@@ -21,7 +22,7 @@ def find_mats(link):
     try:
         correctDiv = divs[index]
     except:
-        return {name: {"No crafting materials."}}
+        return
 
     lis = BeautifulSoup(correctDiv, features="html.parser").find_all("li")
 
@@ -41,33 +42,40 @@ def find_mats(link):
     return amounts, name
 
 def find_all_pages(page, cat):
-    data = check_output(["curl", f"https://valheim.fandom.com{page}"])
+    data = requests.get(f"https://valheim.fandom.com{page}").content
     soup = BeautifulSoup(data, features="html.parser")
 
     div = soup.find("div", class_="category-page__members")
+    if div is None:
+        return [], cat
     atagsUnfiltered = div.find_all("a")
-    atags = [tag for tag in atagsUnfiltered if "Category:" not in tag.get("href", "")]
+    atags = [tag for tag in atagsUnfiltered if "Category:" not in tag.get("href", "") if "set" not in str(tag.get("href", "")).lower() and "armor" not in str(tag.get("href", "")).lower()]
+    sets = [tag for tag in atagsUnfiltered if "set" in str(tag.get("href", "")).lower() or "armor" in str(tag.get("href", "")).lower()]
     links = [tag.get("href") for tag in atags if tag.get("href")]
+    setLinks = [tag.get("href") for tag in sets if tag.get("href")]
     
-    process(links, cat)
+    return links, cat, setLinks
 
-def process(links, cat):
+def process(links, cat, setLinks):
     data = {}
     for link in links:
         try:
             amounts, name = find_mats(link)
-            data[name] = amounts
+            if amounts != {}:
+                data[name] = amounts
         except:
             try:
                 print(find_mats(link))
             except:
                 continue
+    for setLink in setLinks:
+        data.update(findSet(setLink))
     json_data = dumps(data, indent=2)
     with open(f"{cat}.json", "w") as f:
         f.write(json_data)
     
 
 
-find_all_pages("/wiki/Category:Capes", "capes")
+process(*find_all_pages("/wiki/Category:Armor", "armour"))
 
         

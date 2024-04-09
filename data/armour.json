@@ -1,10 +1,10 @@
 {
-  "Cape of Odin (DLC)": {
+  "Cape of Odin": {
     "Leather scraps": "10",
     "Coal": "4"
   },
   "Feather cape": {
-    "Feather": "10",
+    "Feathers": "10",
     "Scale hide": "5",
     "Refined eitr": "20"
   },
@@ -22,7 +22,7 @@
     "Magmafish": "1",
     "Pufferfish": "1"
   },
-  "Hood of Odin (DLC)": {
+  "Hood of Odin": {
     "Leather scraps": "10",
     "Coal": "4"
   },
@@ -44,8 +44,152 @@
     "Bone fragments": "10"
   },
   "Wolf fur cape": {
-    "Wolf pelt": "6",
     "Silver": "4",
+    "Wolf pelt": "6",
     "Wolf trophy": "1"
+  },
+  "Bronze helmet": {
+    "Bronze": "5",
+    "Deer hide": "2"
+  },
+  "Bronze plate cuirass": {
+    "Bronze": "5",
+    "Deer hide": "2"
+  },
+  "Bronze plate leggings": {
+    "Bronze": "5",
+    "Deer hide": "2"
+  },
+  "Carapace helmet": {
+    "Carapace": "16",
+    "Scale hide": "3",
+    "Mandible": "2",
+    "Refined eitr": "4"
+  },
+  "Carapace breastplate": {
+    "Carapace": "20",
+    "Scale hide": "3",
+    "Iron": "5",
+    "Refined eitr": "4"
+  },
+  "Carapace greaves": {
+    "Carapace": "20",
+    "Scale hide": "3",
+    "Iron": "5",
+    "Refined eitr": "4"
+  },
+  "Eitr-weave hood": {
+    "Linen thread": "16",
+    "Refined eitr": "15",
+    "Iron": "2"
+  },
+  "Eitr-weave robe": {
+    "Linen thread": "20",
+    "Refined eitr": "20",
+    "Feathers": "10",
+    "Scale hide": "5"
+  },
+  "Eitr-weave trousers": {
+    "Linen thread": "20",
+    "Refined eitr": "20",
+    "Scale hide": "10"
+  },
+  "Fenris hood": {
+    "Fenris hair": "20",
+    "Wolf pelt": "2",
+    "Cultist trophy": "1"
+  },
+  "Fenris coat": {
+    "Fenris hair": "20",
+    "Wolf pelt": "5",
+    "Leather scraps": "10"
+  },
+  "Fenris leggings": {
+    "Fenris hair": "20",
+    "Wolf pelt": "5",
+    "Leather scraps": "10"
+  },
+  "Iron helmet": {
+    "Iron": "20",
+    "Deer hide": "2"
+  },
+  "Iron scale mail": {
+    "Iron": "20",
+    "Deer hide": "2"
+  },
+  "Iron greaves": {
+    "Iron": "20",
+    "Deer hide": "2"
+  },
+  "Leather helmet": {
+    "Deer hide": "6"
+  },
+  "Leather tunic": {
+    "Deer hide": "6"
+  },
+  "Leather pants": {
+    "Deer hide": "6"
+  },
+  "Deer hide cape": {
+    "Deer hide": "4",
+    "Bone fragments": ""
+  },
+  "Padded helmet": {
+    "Iron": "10",
+    "Linen thread": "15"
+  },
+  "Padded cuirass": {
+    "Iron": "10",
+    "Linen thread": "20"
+  },
+  "Padded greaves": {
+    "Iron": "10",
+    "Linen thread": "20"
+  },
+  "Rag tunic": {
+    "Leather scraps": "5"
+  },
+  "Rag pants": {
+    "Leather scraps": "5"
+  },
+  "Root mask": {
+    "Root": "10",
+    "Ancient bark": "10",
+    "Leather scraps": "4"
+  },
+  "Root harnesk": {
+    "Root": "10",
+    "Ancient bark": "10",
+    "Deer hide": "2"
+  },
+  "Root leggings": {
+    "Root": "10",
+    "Ancient bark": "10",
+    "Deer hide": "2"
+  },
+  "Troll leather helmet": {
+    "Troll hide": "5",
+    "Bone fragments": "3"
+  },
+  "Troll leather tunic": {
+    "Troll hide": "5"
+  },
+  "Troll leather pants": {
+    "Troll hide": "5"
+  },
+  "Drake helmet": {
+    "Silver": "20",
+    "Wolf pelt": "2",
+    "Drake trophy": "2"
+  },
+  "Wolf armor chest": {
+    "Silver": "20",
+    "Wolf pelt": "5",
+    "Chain": "1"
+  },
+  "Wolf armor legs": {
+    "Silver": "20",
+    "Wolf pelt": "5",
+    "Wolf fang": "4"
   }
 }
