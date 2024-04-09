@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+p.noMP {
+  width:40%;
+}
+
 .f {
   display: flex;
 }

@@ -32,10 +32,10 @@
     "Black marble": "4"
   },
   "Blast furnace": {
-    "Stone": "",
-    "Surtling core": "",
-    "Iron": "",
-    "Fine wood": ""
+    "Stone": "20",
+    "Surtling core": "5",
+    "Iron": "10",
+    "Fine wood": "20"
   },
   "Butcher's table": {
     "Ancient bark": "2",
