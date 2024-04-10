@@ -18,6 +18,9 @@ function mainPage() {
     "tools",
     "weapons",
   ];
+  searchbar = document.createElement("input");
+  searchbar.type = "search";
+  searchbar.id = "search";
   select = document.createElement("select");
   select.id = "select";
   select.setAttribute("onchange", "openRecipesPrep()");
@@ -28,6 +31,7 @@ function mainPage() {
     select.appendChild(option);
   }
   navbar.appendChild(select);
+  navbar.appendChild(searchbar);
 }
 
 function openRecipesPrep() {
@@ -42,7 +46,6 @@ async function openRecipes(JSONFile) {
     const subdiv = document.createElement("div");
     const text = document.createElement("p");
     let textText;
-    console.log(recipeAmounts[recipe]);
     if (recipeAmounts[recipe] > 0) {
       textText = recipe + " x" + String(recipeAmounts[recipe]);
     } else {
@@ -50,6 +53,7 @@ async function openRecipes(JSONFile) {
     }
     text.textContent = textText;
     text.className = "noMP";
+    text.id = "text";
     const addButton = document.createElement("button");
     addButton.textContent = "+";
     addButton.onclick = () => {
@@ -63,7 +67,7 @@ async function openRecipes(JSONFile) {
     subdiv.appendChild(text);
     subdiv.appendChild(addButton);
     subdiv.appendChild(minusButton);
-    subdiv.className = "noMP f";
+    subdiv.className = "noMP f searchElement";
     buttonsDiv.appendChild(subdiv);
   }
 }
@@ -83,7 +87,6 @@ function addRecipe(ingredients, recipe) {
     recipeAmounts[recipe] = 1;
   }
   view();
-  console.log(recipeAmounts[recipe]);
   openRecipesPrep();
 }
 
@@ -104,7 +107,7 @@ function takeRecipe(ingredients, recipe) {
     delete recipeAmounts[recipe];
   }
   view();
-  console.log(recipeAmounts[recipe]);
+  openRecipesPrep();
 }
 
 function view() {
@@ -138,3 +141,20 @@ function view() {
 
 mainPage();
 openRecipesPrep();
+document.getElementById("search").addEventListener("input", (e) => {
+  const value = e.target.value;
+  const filter = value.toUpperCase();
+  const elements = document.getElementsByClassName("searchElement");
+  for (i = 0; i < elements.length; i++) {
+    var p = elements[i].querySelector('p');
+    if (p) {
+        txtValue = p.textContent || p.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            elements[i].style.display = "";
+        } else {
+            elements[i].style.display = "none";
+        }
+    }
+}
+
+})
