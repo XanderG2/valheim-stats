@@ -19,8 +19,8 @@ function mainPage() {
     "weapons",
   ];
   select = document.createElement("select");
-  select.id = "select"
-  select.setAttribute("onchange", "openRecipesPrep()")
+  select.id = "select";
+  select.setAttribute("onchange", "openRecipesPrep()");
   for (const optionText of options) {
     const option = document.createElement("option");
     option.textContent = optionText;
@@ -31,7 +31,7 @@ function mainPage() {
 }
 
 function openRecipesPrep() {
-  openRecipes(document.getElementById("select").value)
+  openRecipes(document.getElementById("select").value);
 }
 
 async function openRecipes(JSONFile) {
@@ -41,15 +41,22 @@ async function openRecipes(JSONFile) {
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
     const text = document.createElement("p");
-    text.textContent = recipe;
+    let textText;
+    console.log(recipeAmounts[recipe]);
+    if (recipeAmounts[recipe] > 0) {
+      textText = recipe + " x" + String(recipeAmounts[recipe]);
+    } else {
+      textText = recipe;
+    }
+    text.textContent = textText;
     text.className = "noMP";
     const addButton = document.createElement("button");
-    addButton.textContent = "+"
+    addButton.textContent = "+";
     addButton.onclick = () => {
       addRecipe(ingredients, recipe);
     };
     const minusButton = document.createElement("button");
-    minusButton.textContent = "-"
+    minusButton.textContent = "-";
     minusButton.onclick = () => {
       takeRecipe(ingredients, recipe);
     };
@@ -75,8 +82,9 @@ function addRecipe(ingredients, recipe) {
   } else {
     recipeAmounts[recipe] = 1;
   }
-  view()
-  console.log(recipeAmounts[recipe])
+  view();
+  console.log(recipeAmounts[recipe]);
+  openRecipesPrep();
 }
 
 function takeRecipe(ingredients, recipe) {
@@ -85,18 +93,18 @@ function takeRecipe(ingredients, recipe) {
     if (recipeAmounts[recipe] > 0) {
       total[ingredient] = total[ingredient] - n;
     } else {
-      return
+      return;
     }
     if (total[ingredient] <= 0) {
-      delete total[ingredient]
+      delete total[ingredient];
     }
   }
-  recipeAmounts[recipe] -= 1
+  recipeAmounts[recipe] -= 1;
   if (recipeAmounts[recipe] <= 0) {
-    delete recipeAmounts[recipe]
+    delete recipeAmounts[recipe];
   }
-  view()
-  console.log(recipeAmounts[recipe])
+  view();
+  console.log(recipeAmounts[recipe]);
 }
 
 function view() {
@@ -113,7 +121,8 @@ function view() {
     div3.className = "noNewLine";
     totalHTML.appendChild(div3);
   }
-  for (const [recipe, amount] of Object.entries(recipeAmounts)) {
+  //Display total on the right instead of next to
+  /*for (const [recipe, amount] of Object.entries(recipeAmounts)) {
     console.log(recipeAmounts)
     const br2 = document.createElement("br");
     const text2 = document.createTextNode(`${recipe}: ${amount}`);
@@ -122,9 +131,9 @@ function view() {
     div4.appendChild(br2);
     div4.className = "noNewLine";
     totalHTML2.appendChild(div4);
-  }
+  }*/
   resultsDiv.appendChild(totalHTML);
-  resultsRecipeDiv.appendChild(totalHTML2);
+  //resultsRecipeDiv.appendChild(totalHTML2);
 }
 
 mainPage();
