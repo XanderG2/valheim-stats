@@ -57,6 +57,18 @@ button {
   background: transparent;
 }
 
+@media (min-height: 700px) {
+  button {
+    height: 3lvh;
+  }
+}
+
+@media (max-height: 699px) {
+  button {
+    height: 1px;
+  }
+}
+
 button:hover {
   background: rgb(219, 219, 219);
   cursor: pointer;
