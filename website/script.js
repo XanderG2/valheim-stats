@@ -87,8 +87,14 @@ function takeRecipe(ingredients, recipe) {
     } else {
       return
     }
+    if (total[ingredient] <= 0) {
+      delete total[ingredient]
+    }
   }
   recipeAmounts[recipe] -= 1
+  if (recipeAmounts[recipe] <= 0) {
+    delete recipeAmounts[recipe]
+  }
   view()
   console.log(recipeAmounts[recipe])
 }
