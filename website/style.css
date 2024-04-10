@@ -51,3 +51,22 @@ html {
   /*Disable zoom with double tap*/
   touch-action: manipulation;
 }
+
+button {
+  border: none;
+  background: transparent;
+}
+
+button:hover {
+  background: rgb(219, 219, 219);
+  cursor: pointer;
+}
+
+.buttonContainer {
+  align-items:flex-start;
+}
+
+.amountP {
+  padding: 0;
+  margin: 0;
+}

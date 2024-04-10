@@ -45,13 +45,7 @@ async function openRecipes(JSONFile) {
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
     const text = document.createElement("p");
-    let textText;
-    if (recipeAmounts[recipe] > 0) {
-      textText = recipe + " x" + String(recipeAmounts[recipe]);
-    } else {
-      textText = recipe;
-    }
-    text.textContent = textText;
+    text.textContent = recipe;
     text.className = "noMP";
     text.id = "text";
     const addButton = document.createElement("button");
@@ -64,10 +58,18 @@ async function openRecipes(JSONFile) {
     minusButton.onclick = () => {
       takeRecipe(ingredients, recipe);
     };
+    const amountTextP = document.createElement("p");
+    if (recipeAmounts[recipe] > 0) {
+      amountTextP.textContent = String(recipeAmounts[recipe]);
+    } else {
+      amountTextP.textContent = "0";
+    }
+    amountTextP.className = "amountP";
     subdiv.appendChild(text);
-    subdiv.appendChild(addButton);
     subdiv.appendChild(minusButton);
-    subdiv.className = "noMP f searchElement";
+    subdiv.appendChild(amountTextP);
+    subdiv.appendChild(addButton);
+    subdiv.className = "noMP f searchElement buttonContainer";
     buttonsDiv.appendChild(subdiv);
   }
 }
@@ -114,7 +116,7 @@ function view() {
   resultsDiv.innerHTML = "";
   resultsRecipeDiv.innerHTML = "";
   let totalHTML = document.createElement("div");
-  let totalHTML2 = document.createElement("div");
+  //let totalHTML2 = document.createElement("div");
   for (const [ingredient, amount] of Object.entries(total)) {
     const br = document.createElement("br");
     const text = document.createTextNode(`${ingredient}: ${amount}`);
@@ -148,13 +150,12 @@ document.getElementById("search").addEventListener("input", (e) => {
   for (i = 0; i < elements.length; i++) {
     var p = elements[i].querySelector('p');
     if (p) {
-        txtValue = p.textContent || p.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            elements[i].style.display = "";
-        } else {
-            elements[i].style.display = "none";
-        }
+      txtValue = p.textContent || p.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          elements[i].style.display = "";
+      } else {
+          elements[i].style.display = "none";
+      }
     }
-}
-
+  }
 })
