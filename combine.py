@@ -12,4 +12,4 @@ for file in files:
     totalData.update(jsonData)
 
 with open("all.json", "w") as f:
-    f.write(json.dumps(totalData, indent=2))
+    f.write(json.dumps(dict(sorted(totalData.items())), indent=2))
