@@ -8,6 +8,7 @@ let recipeAmounts = Object.create(null);
 
 function mainPage() {
   const options = [
+    "all",
     "armour",
     "building",
     "crafting",

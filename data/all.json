@@ -1,0 +1,1714 @@
+{
+  "Cape of Odin": {
+    "Leather scraps": "10",
+    "Coal": "4"
+  },
+  "Feather cape": {
+    "Feathers": "10",
+    "Scale hide": "5",
+    "Refined eitr": "20"
+  },
+  "Fishing hat": {
+    "Perch": "1",
+    "Pike": "1",
+    "Tuna": "1",
+    "Tetra": "1",
+    "Trollfish": "1",
+    "Giant herring": "1",
+    "Grouper": "1",
+    "Coral cod": "1",
+    "Anglerfish": "1",
+    "Northern salmon": "1",
+    "Magmafish": "1",
+    "Pufferfish": "1"
+  },
+  "Hood of Odin": {
+    "Leather scraps": "10",
+    "Coal": "4"
+  },
+  "Linen cape": {
+    "Linen thread": "20",
+    "Silver": "1"
+  },
+  "Lox cape": {
+    "Lox pelt": "6",
+    "Silver": "2"
+  },
+  "Pointy Hat": {
+    "Deer hide": "3",
+    "Coal": "5",
+    "Bronze": "1"
+  },
+  "Troll hide cape": {
+    "Troll hide": "10",
+    "Bone fragments": "10"
+  },
+  "Wolf fur cape": {
+    "Silver": "4",
+    "Wolf pelt": "6",
+    "Wolf trophy": "1"
+  },
+  "Bronze helmet": {
+    "Bronze": "5",
+    "Deer hide": "2"
+  },
+  "Bronze plate cuirass": {
+    "Bronze": "5",
+    "Deer hide": "2"
+  },
+  "Bronze plate leggings": {
+    "Bronze": "5",
+    "Deer hide": "2"
+  },
+  "Carapace helmet": {
+    "Carapace": "16",
+    "Scale hide": "3",
+    "Mandible": "2",
+    "Refined eitr": "4"
+  },
+  "Carapace breastplate": {
+    "Carapace": "20",
+    "Scale hide": "3",
+    "Iron": "5",
+    "Refined eitr": "4"
+  },
+  "Carapace greaves": {
+    "Carapace": "20",
+    "Scale hide": "3",
+    "Iron": "5",
+    "Refined eitr": "4"
+  },
+  "Eitr-weave hood": {
+    "Linen thread": "16",
+    "Refined eitr": "15",
+    "Iron": "2"
+  },
+  "Eitr-weave robe": {
+    "Linen thread": "20",
+    "Refined eitr": "20",
+    "Feathers": "10",
+    "Scale hide": "5"
+  },
+  "Eitr-weave trousers": {
+    "Linen thread": "20",
+    "Refined eitr": "20",
+    "Scale hide": "10"
+  },
+  "Fenris hood": {
+    "Fenris hair": "20",
+    "Wolf pelt": "2",
+    "Cultist trophy": "1"
+  },
+  "Fenris coat": {
+    "Fenris hair": "20",
+    "Wolf pelt": "5",
+    "Leather scraps": "10"
+  },
+  "Fenris leggings": {
+    "Fenris hair": "20",
+    "Wolf pelt": "5",
+    "Leather scraps": "10"
+  },
+  "Iron helmet": {
+    "Iron": "20",
+    "Deer hide": "2"
+  },
+  "Iron scale mail": {
+    "Iron": "20",
+    "Deer hide": "2"
+  },
+  "Iron greaves": {
+    "Iron": "20",
+    "Deer hide": "2"
+  },
+  "Leather helmet": {
+    "Deer hide": "6"
+  },
+  "Leather tunic": {
+    "Deer hide": "6"
+  },
+  "Leather pants": {
+    "Deer hide": "6"
+  },
+  "Deer hide cape": {
+    "Deer hide": "4",
+    "Bone fragments": "5"
+  },
+  "Padded helmet": {
+    "Iron": "10",
+    "Linen thread": "15"
+  },
+  "Padded cuirass": {
+    "Iron": "10",
+    "Linen thread": "20"
+  },
+  "Padded greaves": {
+    "Iron": "10",
+    "Linen thread": "20"
+  },
+  "Rag tunic": {
+    "Leather scraps": "5"
+  },
+  "Rag pants": {
+    "Leather scraps": "5"
+  },
+  "Root mask": {
+    "Root": "10",
+    "Ancient bark": "10",
+    "Leather scraps": "4"
+  },
+  "Root harnesk": {
+    "Root": "10",
+    "Ancient bark": "10",
+    "Deer hide": "2"
+  },
+  "Root leggings": {
+    "Root": "10",
+    "Ancient bark": "10",
+    "Deer hide": "2"
+  },
+  "Troll leather helmet": {
+    "Troll hide": "5",
+    "Bone fragments": "3"
+  },
+  "Troll leather tunic": {
+    "Troll hide": "5"
+  },
+  "Troll leather pants": {
+    "Troll hide": "5"
+  },
+  "Drake helmet": {
+    "Silver": "20",
+    "Wolf pelt": "2",
+    "Drake trophy": "2"
+  },
+  "Wolf armor chest": {
+    "Silver": "20",
+    "Wolf pelt": "5",
+    "Chain": "1"
+  },
+  "Wolf armor legs": {
+    "Silver": "20",
+    "Wolf pelt": "5",
+    "Wolf fang": "4"
+  },
+  "Black marble 1x1x1": {
+    "Black marble": "2"
+  },
+  "Black marble 2x1x1": {
+    "Black marble": "4"
+  },
+  "Black marble 2x2x2": {
+    "Black marble": "8"
+  },
+  "Black marble arch": {
+    "Black marble": "5"
+  },
+  "Black marble column, small": {
+    "Black marble": "2"
+  },
+  "Black marble column, wide": {
+    "Black marble": "4"
+  },
+  "Black marble cornice": {
+    "Black marble": "5"
+  },
+  "Black marble cornice, corner": {
+    "Black marble": "6"
+  },
+  "Black marble floor": {
+    "Black marble": "4"
+  },
+  "Black marble floor, triangle": {
+    "Black marble": "3"
+  },
+  "Black marble plinth": {
+    "Black marble": "5"
+  },
+  "Black marble plinth, corner": {
+    "Black marble": "6"
+  },
+  "Black marble quarter spire": {
+    "Black marble": "2"
+  },
+  "Black marble stair": {
+    "Black marble": "8"
+  },
+  "Cage floor 1x1": {
+    "Iron": "1"
+  },
+  "Cage floor 2x2": {
+    "Iron": "2"
+  },
+  "Cage wall 1x1": {
+    "Iron": "1"
+  },
+  "Cage wall 2x2": {
+    "Iron": "2"
+  },
+  "Carved Darkwood divider": {
+    "Fine wood": "2",
+    "Tar": "1"
+  },
+  "Crystal wall 1x1": {
+    "Crystal": "2"
+  },
+  "Darkwood arch": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 2m": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood beam 4m": {
+    "Wood": "4",
+    "Tar": "1"
+  },
+  "Darkwood gate": {
+    "Wood": "16",
+    "Iron": "4",
+    "Tar": "2"
+  },
+  "Darkwood pole 2m": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Darkwood pole 4m": {
+    "Wood": "4",
+    "Tar": "1"
+  },
+  "Dvergr metal wall": {
+    "Copper": "2"
+  },
+  "Dvergr sharp stakes": {
+    "Yggdrasil wood": "5",
+    "Iron": "2"
+  },
+  "Dvergr spiral left stair": {
+    "Yggdrasil wood": "5",
+    "Copper": "2"
+  },
+  "Dvergr spiral right stair": {
+    "Yggdrasil wood": "5",
+    "Copper": "2"
+  },
+  "Dvergr stakewall": {
+    "Yggdrasil wood": "8",
+    "Iron": "8"
+  },
+  "Hexagonal gate": {
+    "Yggdrasil wood": "8",
+    "Copper": "8"
+  },
+  "Iron gate": {
+    "Iron": "4"
+  },
+  "Log beam 26\u00b0": {
+    "Core wood": "1"
+  },
+  "Log beam 2m": {
+    "Core wood": "1"
+  },
+  "Log beam 45\u00b0": {
+    "Core wood": "1"
+  },
+  "Log beam 4m": {
+    "Core wood": "2"
+  },
+  "Log pole 2m": {
+    "Core wood": "1"
+  },
+  "Log pole 4m": {
+    "Core wood": "2"
+  },
+  "Raven adornment": {
+    "Fine wood": "10",
+    "Tar": "1"
+  },
+  "Roundpole fence": {
+    "Wood": "1"
+  },
+  "Sharp stakes": {
+    "Wood": "6",
+    "Core wood": "4"
+  },
+  "Shingle roof 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof i-corner 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof i-corner 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof o-corner 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof o-corner 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof ridge 26\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Shingle roof ridge 45\u00b0": {
+    "Wood": "2",
+    "Tar": "1"
+  },
+  "Stakewall": {
+    "Wood": "4"
+  },
+  "Stone arch": {
+    "Stone": "4"
+  },
+  "Stone floor 2x2": {
+    "Stone": "6"
+  },
+  "Stone pillar": {
+    "Stone": "5"
+  },
+  "Stone stair": {
+    "Stone": "8"
+  },
+  "Stone wall 1x1": {
+    "Stone": "3"
+  },
+  "Stone wall 2x1": {
+    "Stone": "4"
+  },
+  "Stone wall 4x2": {
+    "Stone": "6"
+  },
+  "Thatch roof 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof 45\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof i-corner 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof i-corner 45\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof o-corner 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof o-corner 45\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof ridge 26\u00b0": {
+    "Wood": "2"
+  },
+  "Thatch roof ridge 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wolf adornment": {
+    "Fine wood": "10",
+    "Tar": "1"
+  },
+  "Wood beam 1m": {
+    "Wood": "1"
+  },
+  "Wood beam 26\u00b0": {
+    "Wood": "2"
+  },
+  "Wood beam 2m": {
+    "Wood": "2"
+  },
+  "Wood beam 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wood door": {
+    "Wood": "4"
+  },
+  "Wood dragon adornment": {
+    "Fine wood": "10"
+  },
+  "Wood floor 1x1": {
+    "Wood": "1"
+  },
+  "Wood floor 2x2": {
+    "Wood": "2"
+  },
+  "Wood gate": {
+    "Wood": "12"
+  },
+  "Wood iron beam": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood iron beam 26\u00b0": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood iron beam 45\u00b0": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood iron pole": {
+    "Wood": "2",
+    "Iron": "1"
+  },
+  "Wood ladder": {
+    "Wood": "2"
+  },
+  "Wood pole 1m": {
+    "Wood": "1"
+  },
+  "Wood pole 2m": {
+    "Wood": "2"
+  },
+  "Wood roof cross 26\u00b0": {
+    "Wood": "2"
+  },
+  "Wood roof cross 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wood shutter": {
+    "Wood": "4",
+    "Bronze nails": "2"
+  },
+  "Wood stair": {
+    "Wood": "2"
+  },
+  "Wood wall": {
+    "Wood": "2"
+  },
+  "Wood wall 1x1": {
+    "Wood": "1"
+  },
+  "Wood wall 26\u00b0": {
+    "Wood": "2"
+  },
+  "Wood wall 26\u00b0 (inverted)": {
+    "Wood": "2"
+  },
+  "Wood wall 45\u00b0": {
+    "Wood": "2"
+  },
+  "Wood wall 45\u00b0 (inverted)": {
+    "Wood": "2"
+  },
+  "Wood wall half": {
+    "Wood": "1"
+  },
+  "Adze": {
+    "Fine wood": "10",
+    "Bronze": "3"
+  },
+  "Anvils": {
+    "Wood": "5",
+    "Bronze": "2"
+  },
+  "Artisan table": {
+    "Dragon tear": "2",
+    "Wood": "10"
+  },
+  "Barber station": {
+    "Fine wood": "10",
+    "Barber kit": "1",
+    "Bronze nails": "5",
+    "Troll hide": "5"
+  },
+  "Beehive": {
+    "Wood": "10",
+    "Queen bee": "1"
+  },
+  "Black forge": {
+    "Black marble": "10",
+    "Yggdrasil wood": "10",
+    "Black core": "5"
+  },
+  "Black forge cooler": {
+    "Iron": "5",
+    "Copper": "5",
+    "Black marble": "4"
+  },
+  "Blast furnace": {
+    "Stone": "20",
+    "Surtling core": "5",
+    "Iron": "10",
+    "Fine wood": "20"
+  },
+  "Butcher's table": {
+    "Ancient bark": "2",
+    "Core wood": "4",
+    "Fine wood": "4",
+    "Silver": "2"
+  },
+  "Cauldron": {
+    "Tin": "10"
+  },
+  "Charcoal kiln": {
+    "Stone": "20",
+    "Surtling core": "5"
+  },
+  "Chopping block": {
+    "Wood": "10",
+    "Flint": "10"
+  },
+  "Cooking station": {
+    "Wood": "2"
+  },
+  "Eitr refinery": {
+    "Black marble": "20",
+    "Black metal": "5",
+    "Yggdrasil wood": "10",
+    "Black core": "5",
+    "Sap": "3"
+  },
+  "Fermenter": {
+    "Fine wood": "30",
+    "Bronze": "5",
+    "Resin": "10"
+  },
+  "Forge": {
+    "Stone": "4",
+    "Coal": "4",
+    "Wood": "10",
+    "Copper": "6"
+  },
+  "Forge bellows": {
+    "Wood": "5",
+    "Deer hide": "5",
+    "Chain": "4"
+  },
+  "Forge cooler": {
+    "Fine Wood": "25",
+    "Copper": "10"
+  },
+  "Forge toolrack": {
+    "Iron": "15",
+    "Wood": "10"
+  },
+  "Galdr table": {
+    "Black metal": "10",
+    "Yggdrasil wood": "20",
+    "Black core": "5",
+    "Refined eitr": "5"
+  },
+  "Grinding wheel": {
+    "Wood": "25",
+    "Sharpening stone": "1"
+  },
+  "Iron cooking station": {
+    "Chain": "3",
+    "Iron": "3"
+  },
+  "Mortar and pestle": {
+    "Core wood": "4",
+    "Fine wood": "6",
+    "Black marble": "8"
+  },
+  "Obliterator": {
+    "Iron": "8",
+    "Copper": "4",
+    "Thunder stone": "1"
+  },
+  "Pots and pans": {
+    "Iron": "5",
+    "Copper": "5",
+    "Black metal": "5",
+    "Fine wood": "10"
+  },
+  "Rune table": {
+    "Black marble": "10",
+    "Yggdrasil wood": "5",
+    "Refined eitr": "10"
+  },
+  "Sap extractor": {
+    "Yggdrasil wood": "10",
+    "Black metal": "5",
+    "Dvergr extractor": "1"
+  },
+  "Smelter": {
+    "Stone": "20",
+    "Surtling core": "5"
+  },
+  "Smith's anvil": {
+    "Iron": "20",
+    "Wood": "5"
+  },
+  "Spice rack": {
+    "Dandelion": "3",
+    "Carrot": "2",
+    "Mushroom": "5",
+    "Thistle": "3",
+    "Turnip": "3"
+  },
+  "Spinning wheel": {
+    "Fine wood": "20",
+    "Iron nails": "10",
+    "Leather scraps": "5"
+  },
+  "Stone oven": {
+    "Iron": "15",
+    "Stone": "20",
+    "Surtling core": "4"
+  },
+  "Stonecutter": {
+    "Wood": "10",
+    "Iron": "2",
+    "Stone": "4"
+  },
+  "Tanning rack": {
+    "Wood": "10",
+    "Flint": "15",
+    "Leather scraps": "20",
+    "Deer hide": "5"
+  },
+  "Tool shelf": {
+    "Iron": "4",
+    "Fine wood": "10",
+    "Obsidian": "4"
+  },
+  "Unfading candles": {
+    "Black marble": "10",
+    "Skeleton trophy": "3",
+    "Refined eitr": "10",
+    "Resin": "15"
+  },
+  "Vice": {
+    "Iron": "5",
+    "Copper": "8",
+    "Mechanical spring": "2"
+  },
+  "Windmill": {
+    "Stone": "20",
+    "Wood": "30",
+    "Iron nails": "30"
+  },
+  "Wisp fountain": {
+    "Stone": "10",
+    "Torn spirit": "1"
+  },
+  "Workbench": {
+    "Wood": "10"
+  },
+  "Black soup": {
+    "Bloodbag": "1",
+    "Honey": "1",
+    "Turnip": "1"
+  },
+  "Blood pudding": {
+    "Thistle": "2",
+    "Bloodbag": "2",
+    "Barley flour": "4"
+  },
+  "Boar jerky": {
+    "Boar meat": "1",
+    "Honey": "1"
+  },
+  "Bread": {
+    "Bread dough": "1"
+  },
+  "Carrot soup": {
+    "Mushroom": "1",
+    "Carrot": "3"
+  },
+  "Cooked boar meat": {
+    "Boar meat": "1"
+  },
+  "Cooked chicken meat": {
+    "Chicken meat": "1"
+  },
+  "Cooked deer meat": {
+    "Deer meat": "1"
+  },
+  "Cooked egg": {
+    "Egg": "1"
+  },
+  "Cooked fish": {
+    "Raw fish": "1"
+  },
+  "Cooked hare meat": {
+    "Hare meat": "1"
+  },
+  "Cooked lox meat": {
+    "Lox meat": "1"
+  },
+  "Cooked seeker meat": {
+    "Seeker meat": "1"
+  },
+  "Cooked serpent meat": {
+    "Serpent meat": "1"
+  },
+  "Cooked wolf meat": {
+    "Wolf meat": "1"
+  },
+  "Deer stew": {
+    "Blueberries": "1",
+    "Carrot": "1",
+    "Cooked deer meat": "1"
+  },
+  "Eyescream": {
+    "Greydwarf eye": "3",
+    "Freeze gland": "1"
+  },
+  "Fish n' bread": {
+    "Uncooked fish n' bread": "1"
+  },
+  "Fish wraps": {
+    "Cooked fish": "2",
+    "Barley flour": "4"
+  },
+  "Grilled neck tail": {
+    "Neck tail": "1"
+  },
+  "Honey glazed chicken": {
+    "Uncooked honey glazed chicken": "1"
+  },
+  "Lox meat pie": {
+    "Unbaked Lox Pie": "1"
+  },
+  "Meat platter": {
+    "Uncooked meat platter": "1"
+  },
+  "Minced Meat Sauce": {
+    "Boar meat": "1",
+    "Neck tail": "1",
+    "Carrot": "1"
+  },
+  "Misthare supreme": {
+    "Uncooked misthare supreme": "1"
+  },
+  "Muckshake": {
+    "Ooze": "1",
+    "Raspberries": "2",
+    "Blueberries": "2"
+  },
+  "Mushroom omelette": {
+    "Egg": "3",
+    "Jotun puffs": "3"
+  },
+  "Onion soup": {
+    "Onion": "3"
+  },
+  "Queen's jam": {
+    "Raspberries": "8",
+    "Blueberries": "6"
+  },
+  "Salad": {
+    "Jotun puffs": "3",
+    "Onion": "3",
+    "Cloudberries": "3"
+  },
+  "Sausages": {
+    "Entrails": "4",
+    "Boar meat": "1",
+    "Thistle": "1"
+  },
+  "Seeker aspic": {
+    "Seeker meat": "2",
+    "Magecap": "2",
+    "Royal jelly": "2"
+  },
+  "Serpent stew": {
+    "Mushroom": "1",
+    "Cooked serpent meat": "1",
+    "Honey": "2"
+  },
+  "Stuffed mushroom": {
+    "Uncooked stuffed mushroom": "1"
+  },
+  "Turnip stew": {
+    "Boar meat": "1",
+    "Turnip": "3"
+  },
+  "Wolf jerky": {
+    "Wolf meat": "1",
+    "Honey": "1"
+  },
+  "Wolf skewer": {
+    "Wolf meat": "1",
+    "Mushroom": "2",
+    "Onion": "1"
+  },
+  "Yggdrasil porridge": {
+    "Sap": "4",
+    "Barley": "3",
+    "Royal jelly": "2"
+  },
+  "Armor stand": {
+    "Fine Wood": "8",
+    "Iron Nails": "4",
+    "Leather Scraps": "2"
+  },
+  "Bed": {
+    "Wood": "10"
+  },
+  "Bench": {
+    "Fine wood": "6"
+  },
+  "Black banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Coal": "4"
+  },
+  "Black marble bench": {
+    "Black marble": "6",
+    "Copper": "3"
+  },
+  "Black marble table": {
+    "Black marble": "6",
+    "Copper": "3"
+  },
+  "Black marble throne": {
+    "Black marble": "20",
+    "Scale hide": "4",
+    "Deer hide": "2",
+    "Copper": "5"
+  },
+  "Black metal chest": {
+    "Wood": "10",
+    "Tar": "2",
+    "Black metal": "6"
+  },
+  "Blue banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Blueberries": "4"
+  },
+  "Blue jute carpet": {
+    "Blue jute": "4"
+  },
+  "Blue jute curtain": {
+    "Blue jute": "4",
+    "Fine wood": "1"
+  },
+  "Blue jute drapes": {
+    "Blue jute": "4",
+    "Fine wood": "1"
+  },
+  "Blue, red and white banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Blueberries": "2",
+    "Raspberries": "2",
+    "Cloudberries": "1"
+  },
+  "Chair": {
+    "Fine wood": "4"
+  },
+  "Chest": {
+    "Wood": "10"
+  },
+  "Darkwood chair": {
+    "Fine wood": "4",
+    "Tar": "1",
+    "Iron nails": "5",
+    "Deer hide": "1"
+  },
+  "Deer rug": {
+    "Deer hide": "4"
+  },
+  "Dragon bed": {
+    "Fine wood": "40",
+    "Deer hide": "7",
+    "Wolf pelt": "4",
+    "Feathers": "10",
+    "Iron nails": "15"
+  },
+  "Dvergr lantern pole": {
+    "Copper": "3",
+    "Dvergr lantern": "1",
+    "Chain": "1"
+  },
+  "Dvergr wall lantern": {
+    "Copper": "3",
+    "Dvergr lantern": "1",
+    "Chain": "1"
+  },
+  "Green banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Guck": "1"
+  },
+  "Hanging brazier": {
+    "Bronze": "5",
+    "Coal": "2",
+    "Chain": "1"
+  },
+  "Hare rug": {
+    "Scale hide": "4"
+  },
+  "Hot tub": {
+    "Wood": "20",
+    "Tar": "6",
+    "Iron": "10",
+    "Stone": "8"
+  },
+  "Item Stand": {
+    "Fine wood": "4",
+    "Bronze nails": "1"
+  },
+  "Item stand (horizontal)": {
+    "Fine wood": "4",
+    "Bronze nails": "1"
+  },
+  "Item stand (vertical)": {
+    "Fine wood": "4",
+    "Bronze nails": "1"
+  },
+  "Jack-o-turnip": {
+    "Turnip": "4",
+    "Resin": "2"
+  },
+  "Long heavy table": {
+    "Fine wood": "20",
+    "Tar": "2",
+    "Iron nails": "20"
+  },
+  "Lox rug": {
+    "Lox pelt": "4"
+  },
+  "Maypole": {
+    "Wood": "10",
+    "Dandelion": "4",
+    "Thistle": "4"
+  },
+  "Mistletoe": {
+    "Fine wood": "1",
+    "Red jute": "1"
+  },
+  "Orange banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Carrot": "2",
+    "Cloudberries": "3"
+  },
+  "Personal chest": {
+    "Fine Wood": "10",
+    "Iron": "8"
+  },
+  "Purple banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Blueberries": "2",
+    "Raspberries": "3"
+  },
+  "Raven throne": {
+    "Fine wood": "20",
+    "Iron nails": "10"
+  },
+  "Red banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Bloodbag": "1"
+  },
+  "Red jute carpet": {
+    "Red jute": "4"
+  },
+  "Red jute curtain": {
+    "Red jute": "4",
+    "Fine wood": "1"
+  },
+  "Reinforced chest": {
+    "Fine wood": "10",
+    "Iron": "2"
+  },
+  "Round table": {
+    "Fine wood": "10",
+    "Tar": "2",
+    "Iron nails": "20"
+  },
+  "Sconce": {
+    "Wood": "2",
+    "Copper": "2",
+    "Resin": "2"
+  },
+  "Sign": {
+    "Coal": "1",
+    "Wood": "2"
+  },
+  "Sitting log": {
+    "Core wood": "2"
+  },
+  "Standing blue-burning iron torch": {
+    "Iron": "2",
+    "Greydwarf eye": "2"
+  },
+  "Standing brazier": {
+    "Bronze": "5",
+    "Coal": "2",
+    "Fenris claw": "3"
+  },
+  "Standing green-burning iron torch": {
+    "Iron": "2",
+    "Guck": "2"
+  },
+  "Standing iron torch": {
+    "Iron": "2",
+    "Resin": "2"
+  },
+  "Standing wood torch": {
+    "Wood": "2",
+    "Resin": "2"
+  },
+  "Stone throne": {
+    "Stone": "20",
+    "Deer hide": "2",
+    "Wolf pelt": "2"
+  },
+  "Stool": {
+    "Fine wood": "4"
+  },
+  "Table": {
+    "Fine wood": "6"
+  },
+  "White and blue striped banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Blueberries": "2",
+    "Cloudberries": "3"
+  },
+  "White and red striped banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Raspberries": "4"
+  },
+  "White banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Coal": "2",
+    "Cloudberries": "4"
+  },
+  "Wisp torch": {
+    "Yggdrasil wood": "1",
+    "Wisp": "1"
+  },
+  "Wolf rug": {
+    "Wolf pelt": "4"
+  },
+  "Yellow banner": {
+    "Fine wood": "2",
+    "Leather scraps": "6",
+    "Coal": "2",
+    "Dandelion": "4"
+  },
+  "Yule garland": {
+    "Fine wood": "2",
+    "Pine cone": "1"
+  },
+  "Yule tree": {
+    "Wood": "10",
+    "Fir cone": "1"
+  },
+  "Yule wreath": {
+    "Pine cone": "4",
+    "Red jute": "1",
+    "Fine wood": "1"
+  },
+  "Yuleklapp (large)": {
+    "Fine wood": "4",
+    "Raspberries": "1"
+  },
+  "Yuleklapp (medium)": {
+    "Fine wood": "3",
+    "Dandelion": "1"
+  },
+  "Yuleklapp (small)": {
+    "Fine wood": "2",
+    "Bone fragments": "1"
+  },
+  "Barley flour": {
+    "Barley": "1"
+  },
+  "Bronze nails": {
+    "Bronze": "1"
+  },
+  "Iron nails": {
+    "Iron": "1"
+  },
+  "Linen thread": {
+    "Flax": "1"
+  },
+  "Mechanical spring": {
+    "Refined eitr": "1",
+    "Iron": "3"
+  },
+  "Refined eitr": {
+    "Sap": "1",
+    "Soft tissue": "1"
+  },
+  "Sharpening stone": {
+    "Stone": "5"
+  },
+  "Ballista": {
+    "Black Metal": "10",
+    "Yggdrasil wood": "10",
+    "Mechanical spring": "3"
+  },
+  "Black marble pile": {
+    "Black marble": "50"
+  },
+  "Bonfire": {
+    "Surtling core": "1",
+    "Ancient bark": "5",
+    "Core wood": "5",
+    "Fine wood": "5"
+  },
+  "Campfire": {
+    "Stone": "5",
+    "Wood": "2"
+  },
+  "Cart": {
+    "Wood": "20",
+    "Bronze nails": "10"
+  },
+  "Cartography table": {
+    "Fine wood": "10",
+    "Bone fragments": "10",
+    "Bronze": "2",
+    "Leather scraps": "5",
+    "Raspberries": "4"
+  },
+  "Coal pile": {
+    "Coal": "50"
+  },
+  "Coin pile": {
+    "Coins": "999"
+  },
+  "Coin stack": {
+    "Coins": "99"
+  },
+  "Core wood stack": {
+    "Core wood": "50"
+  },
+  "Fine wood stack": {
+    "Fine wood": "50"
+  },
+  "Firepit iron": {
+    "Iron pit": "1",
+    "Wood": "1"
+  },
+  "Hearth": {
+    "Stone": "15"
+  },
+  "Karve": {
+    "Fine wood": "30",
+    "Deer hide": "10",
+    "Resin": "20",
+    "Bronze nails": "80"
+  },
+  "Longship": {
+    "Iron nails": "100",
+    "Deer hide": "10",
+    "Fine wood": "40",
+    "Ancient bark": "40"
+  },
+  "Paved road": {
+    "Stone": "1"
+  },
+  "Portal": {
+    "Greydwarf eye": "10",
+    "Fine wood": "20",
+    "Surtling core": "2"
+  },
+  "Raft": {
+    "Wood": "20",
+    "Leather scraps": "6",
+    "Resin": "6"
+  },
+  "Stone pile": {
+    "Stone": "50"
+  },
+  "Trap": {
+    "Black metal": "5",
+    "Bronze nails": "10",
+    "Mechanical spring": "1"
+  },
+  "Treasure chest": {
+    "Coins": "99",
+    "Ruby": "5",
+    "Silver Necklace": "2",
+    "Fine wood": "8",
+    "Silver": "2"
+  },
+  "Ward": {
+    "Fine wood": "5",
+    "Greydwarf eye": "5",
+    "Surtling core": "1"
+  },
+  "Wood stack": {
+    "Wood": "50"
+  },
+  "Yggdrasil wood stack": {
+    "Yggdrasil wood": "50"
+  },
+  "Antler pickaxe": {
+    "Wood": "10",
+    "Hard antler": "1"
+  },
+  "Black metal pickaxe": {
+    "Yggdrasil wood": "3",
+    "Black metal": "25"
+  },
+  "Blackmetal axe": {
+    "Fine wood": "6",
+    "Black metal": "20",
+    "Linen thread": "5"
+  },
+  "Bronze axe": {
+    "Wood": "4",
+    "Bronze": "8",
+    "Leather Scraps": "2"
+  },
+  "Bronze pickaxe": {
+    "Core wood": "3",
+    "Bronze": "10"
+  },
+  "Cultivator": {
+    "Core wood": "5",
+    "Bronze": "5"
+  },
+  "Flint axe": {
+    "Wood": "4",
+    "Flint": "6"
+  },
+  "Hammer": {
+    "Wood": "3",
+    "Stone": "2"
+  },
+  "Hoe": {
+    "Wood": "5",
+    "Stone": "2"
+  },
+  "Horn of Celebration": {
+    "Bronze": "2",
+    "Troll hide": "2",
+    "Iron": "2"
+  },
+  "Iron pickaxe": {
+    "Core wood": "3",
+    "Iron": "20"
+  },
+  "Stone axe": {
+    "Wood": "5",
+    "Stone": "4"
+  },
+  "Tankard": {
+    "Fine wood": "5",
+    "Resin": "2"
+  },
+  "Torch": {
+    "Wood": "1",
+    "Resin": "1"
+  },
+  "Abyssal harpoon": {
+    "Fine wood": "8",
+    "Chitin": "30",
+    "Leather scraps": "3"
+  },
+  "Abyssal razor": {
+    "Fine wood": "4",
+    "Chitin": "20",
+    "Leather scraps": "2"
+  },
+  "Ancient bark spear": {
+    "Troll hide": "4",
+    "Iron": "10",
+    "Ancient bark": "10"
+  },
+  "Arbalest": {
+    "Wood": "10",
+    "Iron": "8",
+    "Root": "4"
+  },
+  "Banded shield": {
+    "Fine wood": "10",
+    "Iron": "8"
+  },
+  "Battleaxe": {
+    "Ancient bark": "30",
+    "Iron": "35",
+    "Leather scraps": "4"
+  },
+  "Bile bomb": {
+    "Sap": "1",
+    "Bilebag": "1",
+    "Resin": "3"
+  },
+  "Black metal missile": {
+    "Wood": "10",
+    "Black metal": "1"
+  },
+  "Black metal shield": {
+    "Fine wood": "10",
+    "Black metal": "8",
+    "Chain": "5"
+  },
+  "Black metal tower shield": {
+    "Fine wood": "15",
+    "Black metal": "10",
+    "Chain": "7"
+  },
+  "Blackmetal atgeir": {
+    "Fine wood": "10",
+    "Black metal": "30",
+    "Linen thread": "5"
+  },
+  "Blackmetal bolt": {
+    "Wood": "8",
+    "Black metal": "2",
+    "Feathers": "2"
+  },
+  "Blackmetal knife": {
+    "Fine wood": "4",
+    "Black metal": "10",
+    "Linen thread": "5"
+  },
+  "Blackmetal sword": {
+    "Fine wood": "2",
+    "Black metal": "20",
+    "Linen thread": "5"
+  },
+  "Bone bolt": {
+    "Bone fragments": "8",
+    "Feathers": "2"
+  },
+  "Bone tower shield": {
+    "Wood": "10",
+    "Bone fragments": "10",
+    "Skeleton trophy": "3"
+  },
+  "Bronze atgeir": {
+    "Wood": "10",
+    "Bronze": "8",
+    "Leather scraps": "2"
+  },
+  "Bronze buckler": {
+    "Bronze": "10",
+    "Wood": "4"
+  },
+  "Bronze mace": {
+    "Wood": "4",
+    "Bronze": "8",
+    "Leather Scraps": "3"
+  },
+  "Bronze spear": {
+    "Wood": "5",
+    "Bronze": "6",
+    "Deer hide": "2"
+  },
+  "Bronze sword": {
+    "Wood": "2",
+    "Bronze": "8",
+    "Leather scraps": "2"
+  },
+  "Bronzehead arrow": {
+    "Wood": "8",
+    "Bronze": "1",
+    "Feathers": "2"
+  },
+  "Butcher knife": {
+    "Wood": "2",
+    "Tin": "4"
+  },
+  "Carapace arrow": {
+    "Carapace": "4",
+    "Feathers": "2",
+    "Wood": "8"
+  },
+  "Carapace bolt": {
+    "Wood": "8",
+    "Carapace": "2",
+    "Feathers": "2"
+  },
+  "Carapace buckler": {
+    "Carapace": "16",
+    "Scale hide": "3",
+    "Refined eitr": "10"
+  },
+  "Carapace shield": {
+    "Carapace": "20",
+    "Scale hide": "3",
+    "Refined eitr": "10"
+  },
+  "Carapace spear": {
+    "Yggdrasil wood": "10",
+    "Carapace": "4",
+    "Mandible": "2"
+  },
+  "Club": {
+    "Wood": "6"
+  },
+  "Copper knife": {
+    "Wood": "2",
+    "Copper": "8"
+  },
+  "Crude bow": {
+    "Wood": "10",
+    "Leather scraps": "8"
+  },
+  "Crystal battleaxe": {
+    "Ancient bark": "40",
+    "Silver": "30",
+    "Crystal": "10"
+  },
+  "Dead raiser": {
+    "Bone fragments": "10",
+    "Refined eitr": "16",
+    "Skeleton trophy": "4"
+  },
+  "Demolisher": {
+    "Yggdrasil wood": "10",
+    "Iron": "20",
+    "Refined eitr": "10"
+  },
+  "Draugr fang": {
+    "Ancient bark": "10",
+    "Silver": "20",
+    "Deer hide": "2",
+    "Guck": "10"
+  },
+  "Dvergr lantern": {
+    "Bronze": "2",
+    "Surtling core": "1",
+    "Crystal": "1"
+  },
+  "Dyrnwyn": {
+    "Fine wood": "2",
+    "Flametal": "10",
+    "Surtling core": "20",
+    "Leather scraps": "3"
+  },
+  "Fang spear": {
+    "Ancient bark": "10",
+    "Wolf fang": "4",
+    "Leather scraps": "2",
+    "Silver": "2"
+  },
+  "Finewood bow": {
+    "Fine wood": "10",
+    "Core wood": "10",
+    "Deer hide": "2"
+  },
+  "Fire arrow": {
+    "Wood": "8",
+    "Resin": "8",
+    "Feathers": "2"
+  },
+  "Flesh rippers": {
+    "Fenris hair": "10",
+    "Fenris claw": "6",
+    "Silver": "10"
+  },
+  "Flint knife": {
+    "Wood": "2",
+    "Flint": "4",
+    "Leather scraps": "2"
+  },
+  "Flint spear": {
+    "Wood": "5",
+    "Flint": "10",
+    "Leather scraps": "2"
+  },
+  "Flinthead arrow": {
+    "Wood": "8",
+    "Flint": "2",
+    "Feathers": "2"
+  },
+  "Frost arrow": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2",
+    "Freeze gland": "1"
+  },
+  "Frostner": {
+    "Ancient bark": "10",
+    "Silver": "30",
+    "Ymir flesh": "5",
+    "Freeze gland": "5"
+  },
+  "Himminafl": {
+    "Yggdrasil wood": "10",
+    "Refined eitr": "15",
+    "Silver": "5",
+    "Mandible": "2"
+  },
+  "Huntsman bow": {
+    "Fine wood": "10",
+    "Iron": "20",
+    "Feathers": "10",
+    "Deer hide": "2"
+  },
+  "Iron atgeir": {
+    "Wood": "10",
+    "Iron": "30",
+    "Leather scraps": "2"
+  },
+  "Iron axe": {
+    "Wood": "4",
+    "Iron": "20",
+    "Leather Scraps": "2"
+  },
+  "Iron bolt": {
+    "Wood": "8",
+    "Feathers": "2",
+    "Iron": "1"
+  },
+  "Iron buckler": {
+    "Iron": "10",
+    "Ancient bark": "4"
+  },
+  "Iron mace": {
+    "Wood": "4",
+    "Iron": "20",
+    "Leather scraps": "3"
+  },
+  "Iron sledge": {
+    "Ancient bark": "10",
+    "Iron": "30",
+    "Ymir flesh": "4",
+    "Draugr Elite trophy": "1"
+  },
+  "Iron sword": {
+    "Wood": "2",
+    "Iron": "20",
+    "Leather scraps": "3"
+  },
+  "Iron tower shield": {
+    "Fine wood": "15",
+    "Iron": "10"
+  },
+  "Ironhead arrow": {
+    "Wood": "8",
+    "Iron": "1",
+    "Feathers": "2"
+  },
+  "Jotun bane": {
+    "Yggdrasil wood": "5",
+    "Iron": "15",
+    "Bilebag": "3",
+    "Refined eitr": "10"
+  },
+  "Krom": {
+    "Iron": "30",
+    "Bronze": "20",
+    "Scale hide": "5"
+  },
+  "Mistwalker": {
+    "Fine wood": "3",
+    "Iron": "15",
+    "Refined eitr": "10",
+    "Wisp": "3"
+  },
+  "Needle arrow": {
+    "Needle": "4",
+    "Feathers": "2"
+  },
+  "Obsidian arrow": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2"
+  },
+  "Ooze bomb": {
+    "Leather scraps": "5",
+    "Ooze": "5",
+    "Resin": "3"
+  },
+  "Poison arrow": {
+    "Wood": "8",
+    "Obsidian": "4",
+    "Feathers": "2",
+    "Ooze": "2"
+  },
+  "Porcupine": {
+    "Fine wood": "5",
+    "Iron": "20",
+    "Needle": "5",
+    "Linen thread": "10"
+  },
+  "Serpent scale shield": {
+    "Fine wood": "10",
+    "Iron": "4",
+    "Serpent scale": "8"
+  },
+  "Silver arrow": {
+    "Wood": "8",
+    "Silver": "1",
+    "Feathers": "2"
+  },
+  "Silver knife": {
+    "Wood": "2",
+    "Silver": "10",
+    "Leather scraps": "3",
+    "Iron": "2"
+  },
+  "Silver shield": {
+    "Fine wood": "10",
+    "Silver": "8"
+  },
+  "Silver sword": {
+    "Wood": "2",
+    "Silver": "40",
+    "Leather scraps": "3",
+    "Iron": "5"
+  },
+  "Skoll and Hati": {
+    "Fine wood": "4",
+    "Iron": "10",
+    "Black metal": "10"
+  },
+  "Spinesnap": {
+    "Fine wood": "10",
+    "Bone fragments": "40",
+    "Refined eitr": "10"
+  },
+  "Staff of embers": {
+    "Yggdrasil wood": "20",
+    "Surtling core": "4",
+    "Refined eitr": "16"
+  },
+  "Staff of frost": {
+    "Yggdrasil wood": "20",
+    "Freeze gland": "4",
+    "Refined eitr": "16"
+  },
+  "Staff of protection": {
+    "Yggdrasil wood": "20",
+    "Blood clot": "4",
+    "Refined eitr": "16"
+  },
+  "Stagbreaker": {
+    "Core wood": "20",
+    "Deer trophy": "5",
+    "Leather scraps": "2"
+  },
+  "Wood arrow": {
+    "Wood": "8"
+  },
+  "Wood shield": {
+    "Wood": "10",
+    "Resin": "4",
+    "Leather scraps": "4"
+  },
+  "Wood tower shield": {
+    "Wood": "10",
+    "Leather scraps": "4"
+  },
+  "Wooden missile": {
+    "Core wood": "5",
+    "Feathers": "2"
+  }
+}
