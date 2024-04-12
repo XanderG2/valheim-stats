@@ -34,6 +34,10 @@ function mainPage() {
     option.value = optionText;
     select.appendChild(option);
   }
+  attribution = document.createElement("p");
+  attribution.textContent = "By Xander";
+  attribution.style.float = "right";
+  attribution.style.margin = "0";
   homeButton = document.createElement("button");
   homeButton.textContent = "🏠";
   homeButton.style.float = "right";
@@ -41,6 +45,7 @@ function mainPage() {
   navbar.appendChild(select);
   navbar.appendChild(searchbar);
   navbar.appendChild(homeButton);
+  navbar.appendChild(attribution);
 }
 
 function openRecipesPrep() {
