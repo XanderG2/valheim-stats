@@ -88,7 +88,7 @@ button:hover {
   border: 1px solid black;
   flex: 1;
   border-radius: 5px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #right {
@@ -99,4 +99,13 @@ button:hover {
   display: flex;
   flex-direction: column;
   height: 95%;
+}
+
+#select, #search {
+  border: 0.1px solid;
+  border-radius: 5px;
+}
+
+#search {
+  margin-left: 10px;
 }

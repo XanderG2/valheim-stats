@@ -24,6 +24,7 @@ function mainPage() {
   searchbar = document.createElement("input");
   searchbar.type = "search";
   searchbar.id = "search";
+  searchbar.placeholder = "Search for recipe...";
   select = document.createElement("select");
   select.id = "select";
   select.setAttribute("onchange", "openRecipesPrep()");
@@ -33,8 +34,13 @@ function mainPage() {
     option.value = optionText;
     select.appendChild(option);
   }
+  homeButton = document.createElement("button");
+  homeButton.textContent = "🏠";
+  homeButton.style.float = "right";
+  homeButton.onclick = () => {window.location.href = "https://xander.thegillams.co.uk"};
   navbar.appendChild(select);
   navbar.appendChild(searchbar);
+  navbar.appendChild(homeButton);
 }
 
 function openRecipesPrep() {
