@@ -119,8 +119,14 @@ function view() {
   resultsDiv.innerHTML = "";
   const uncompletedDiv = document.createElement("div");
   uncompletedDiv.id = "uncompleted";
+  const label2 = document.createElement("h1");
+  label2.textContent = "Uncompleted";
+  uncompletedDiv.appendChild(label2);
   const completedDiv = document.createElement("div");
   completedDiv.id = "completed";
+  const label1 = document.createElement("h1");
+  label1.textContent = "Completed";
+  completedDiv.appendChild(label1);
   resultsDiv.appendChild(uncompletedDiv);
   resultsDiv.appendChild(completedDiv);
   //resultsRecipeDiv.innerHTML = "";

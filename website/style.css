@@ -83,6 +83,20 @@ button:hover {
   margin: 0;
 }
 
-#completed {
-  margin-top:50%;
+
+#completed, #uncompleted {
+  border: 1px solid black;
+  flex: 1;
+  border-radius: 5px;
+  overflow: scroll;
+}
+
+#right {
+  height:100%;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
 }
