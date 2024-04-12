@@ -5,6 +5,8 @@ const buttonsDiv = document.getElementById("buttons");
 const navbar = document.getElementById("navbar");
 let total = Object.create(null);
 let recipeAmounts = Object.create(null);
+let completed = [];
+let uncompleted = [];
 
 function mainPage() {
   const options = [
@@ -115,17 +117,34 @@ function takeRecipe(ingredients, recipe) {
 
 function view() {
   resultsDiv.innerHTML = "";
-  resultsRecipeDiv.innerHTML = "";
-  let totalHTML = document.createElement("div");
+  const uncompletedDiv = document.createElement("div");
+  uncompletedDiv.id = "uncompleted";
+  const completedDiv = document.createElement("div");
+  completedDiv.id = "completed";
+  resultsDiv.appendChild(uncompletedDiv);
+  resultsDiv.appendChild(completedDiv);
+  //resultsRecipeDiv.innerHTML = "";
   //let totalHTML2 = document.createElement("div");
   for (const [ingredient, amount] of Object.entries(total)) {
-    const br = document.createElement("br");
-    const text = document.createTextNode(`${ingredient}: ${amount}`);
     const div3 = document.createElement("div");
+    const br = document.createElement("br");
+    const text1 = document.createElement("span");
+    text1.textContent = ingredient;
+    text1.id = "ingredient";
+    const text2 = document.createElement("span");
+    text2.textContent = amount;
+    text2.id = "amount";
+    const text = document.createTextNode(": ");
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.className = "checkbox";
+    div3.appendChild(text1);
     div3.appendChild(text);
+    div3.appendChild(text2);
+    div3.appendChild(checkbox);
     div3.appendChild(br);
     div3.className = "noNewLine";
-    totalHTML.appendChild(div3);
+    uncompletedDiv.appendChild(div3);
   }
   //Display total on the right instead of next to
   /*for (const [recipe, amount] of Object.entries(recipeAmounts)) {
@@ -138,12 +157,30 @@ function view() {
     div4.className = "noNewLine";
     totalHTML2.appendChild(div4);
   }*/
-  resultsDiv.appendChild(totalHTML);
   //resultsRecipeDiv.appendChild(totalHTML2);
+  Array.from(document.getElementsByClassName("checkbox")).forEach(checkbox => {
+    checkbox.addEventListener("change", (e) => {
+      const ingredient = e.target.parentElement.querySelector("#ingredient").textContent
+      if (e.target.checked) {
+        if (uncompleted.includes(ingredient)) {
+          uncompleted.splice(uncompleted.indexOf(ingredient));
+        }
+        completed.push(ingredient);
+        completedDiv.appendChild(e.target.parentElement);
+      } else {
+        if (completed.includes(ingredient)) {
+          completed.splice(completed.indexOf(ingredient));
+        }
+        uncompleted.push(ingredient);
+        uncompletedDiv.appendChild(e.target.parentElement);
+      }
+    });
+  });
 }
 
 mainPage();
 openRecipesPrep();
+
 document.getElementById("search").addEventListener("input", (e) => {
   const value = e.target.value;
   const filter = value.toUpperCase();
