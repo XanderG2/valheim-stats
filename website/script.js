@@ -68,10 +68,38 @@ async function openRecipes(JSONFile) {
       amountTextP.textContent = "0";
     }
     amountTextP.className = "amountP";
+    const expand = document.createElement("div");
+    for (const [ingredient, amount] of Object.entries(ingredients)) {
+      const br = document.createElement("br");
+      const text1 = document.createElement("span");
+      text1.textContent = ingredient;
+      text1.id = "ingredient";
+      const text2 = document.createElement("span");
+      text2.textContent = amount;
+      text2.id = "amount";
+      const text = document.createTextNode(": ");
+      expand.appendChild(br);
+      expand.appendChild(text1);
+      expand.appendChild(text);
+      expand.appendChild(text2);
+    }
+    expand.id = "expand";
+    expand.style.display = "none";
+    const expandButton = document.createElement("button");
+    expandButton.textContent = "↓";
+    expandButton.onclick = () => {
+      if (expand.style.display != "") {
+        expand.style.display = "";
+      } else {
+        expand.style.display = "none";
+      }
+    };
     subdiv.appendChild(text);
     subdiv.appendChild(minusButton);
     subdiv.appendChild(amountTextP);
     subdiv.appendChild(addButton);
+    subdiv.appendChild(expandButton);
+    subdiv.appendChild(expand);
     subdiv.className = "noMP f searchElement buttonContainer";
     buttonsDiv.appendChild(subdiv);
   }
