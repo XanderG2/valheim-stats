@@ -58,6 +58,7 @@ async function openRecipes(JSONFile) {
   buttonsDiv.innerHTML = "";
   for (const [recipe, ingredients] of Object.entries(data)) {
     const subdiv = document.createElement("div");
+    const subsubdiv = document.createElement("div");
     const text = document.createElement("p");
     text.textContent = recipe;
     text.className = "noMP";
@@ -89,11 +90,12 @@ async function openRecipes(JSONFile) {
       text2.textContent = amount;
       text2.id = "amount";
       const text = document.createTextNode(": ");
-      expand.appendChild(br);
       expand.appendChild(text1);
       expand.appendChild(text);
       expand.appendChild(text2);
+      expand.appendChild(br);
     }
+    expand.style.marginBottom = "1em";
     expand.id = "expand";
     expand.style.display = "none";
     const expandButton = document.createElement("button");
@@ -105,11 +107,17 @@ async function openRecipes(JSONFile) {
         expand.style.display = "none";
       }
     };
-    subdiv.appendChild(text);
-    subdiv.appendChild(minusButton);
-    subdiv.appendChild(amountTextP);
-    subdiv.appendChild(addButton);
-    subdiv.appendChild(expandButton);
+    subdiv.style.display = "flex";
+    subdiv.style.flexDirection = "column";
+    subsubdiv.style.display = "flex";
+    subsubdiv.style.flexDirection = "row";
+    subsubdiv.style.width = "100%";
+    subsubdiv.appendChild(text);
+    subsubdiv.appendChild(minusButton);
+    subsubdiv.appendChild(amountTextP);
+    subsubdiv.appendChild(addButton);
+    subsubdiv.appendChild(expandButton);
+    subdiv.appendChild(subsubdiv);
     subdiv.appendChild(expand);
     subdiv.className = "noMP f searchElement buttonContainer";
     buttonsDiv.appendChild(subdiv);
