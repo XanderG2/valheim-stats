@@ -99,12 +99,16 @@ async function openRecipes(JSONFile) {
     expand.id = "expand";
     expand.style.display = "none";
     const expandButton = document.createElement("button");
-    expandButton.textContent = "↓";
+    const img = document.createElement("img");
+    img.src = "down.svg";
+    expandButton.appendChild(img);
     expandButton.onclick = () => {
       if (expand.style.display != "") {
         expand.style.display = "";
+        expandButton.querySelector("img").src = "up.svg";
       } else {
         expand.style.display = "none";
+        expandButton.querySelector("img").src = "down.svg";
       }
     };
     subdiv.style.display = "flex";
