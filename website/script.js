@@ -236,18 +236,24 @@ function view() {
   });
 }
 
+function mkre(text) {
+  const cleanText = text.toLowerCase().replace(/[^a-z]/g, '');
+  const re = cleanText.split("").join(".*");
+  return new RegExp(re, 'i');
+}
+
 function search(target) {
   const value = target.value;
-  const filter = value.toUpperCase();
   const elements = document.getElementsByClassName("searchElement");
+  const re = mkre(value);
   for (i = 0; i < elements.length; i++) {
-    var p = elements[i].querySelector('p');
+    var p = elements[i].querySelector("p");
     if (p) {
       txtValue = p.textContent || p.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          elements[i].style.display = "";
+      if (re.test(txtValue)) {
+        elements[i].style.display = "";
       } else {
-          elements[i].style.display = "none";
+        elements[i].style.display = "none";
       }
     }
   }
@@ -256,6 +262,4 @@ function search(target) {
 mainPage();
 openRecipesPrep();
 
-document.getElementById("search").addEventListener("input", (e) => {
-  search(e.target)
-})
+document.getElementById("search").addEventListener("input", (e) => {search(e.target)})
