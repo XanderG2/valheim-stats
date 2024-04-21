@@ -126,6 +126,7 @@ async function openRecipes(JSONFile) {
     subdiv.className = "noMP f searchElement buttonContainer";
     buttonsDiv.appendChild(subdiv);
   }
+  search(document.getElementById("search"));
 }
 
 function addRecipe(ingredients, recipe) {
@@ -235,11 +236,8 @@ function view() {
   });
 }
 
-mainPage();
-openRecipesPrep();
-
-document.getElementById("search").addEventListener("input", (e) => {
-  const value = e.target.value;
+function search(target) {
+  const value = target.value;
   const filter = value.toUpperCase();
   const elements = document.getElementsByClassName("searchElement");
   for (i = 0; i < elements.length; i++) {
@@ -253,4 +251,11 @@ document.getElementById("search").addEventListener("input", (e) => {
       }
     }
   }
+}
+
+mainPage();
+openRecipesPrep();
+
+document.getElementById("search").addEventListener("input", (e) => {
+  search(e.target)
 })
