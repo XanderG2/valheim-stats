@@ -21,11 +21,11 @@ function mainPage() {
     "tools",
     "weapons",
   ];
-  searchbar = document.createElement("input");
+  const searchbar = document.createElement("input");
   searchbar.type = "search";
   searchbar.id = "search";
   searchbar.placeholder = "Search for recipe...";
-  select = document.createElement("select");
+  const select = document.createElement("select");
   select.id = "select";
   select.setAttribute("onchange", "openRecipesPrep()");
   for (const optionText of options) {
@@ -34,11 +34,11 @@ function mainPage() {
     option.value = optionText;
     select.appendChild(option);
   }
-  attribution = document.createElement("p");
+  const attribution = document.createElement("p");
   attribution.textContent = "By Xander";
   attribution.style.float = "right";
   attribution.style.margin = "0";
-  homeButton = document.createElement("button");
+  const homeButton = document.createElement("button");
   homeButton.textContent = "🏠";
   homeButton.style.float = "right";
   homeButton.onclick = () => {window.location.href = "https://xander.thegillams.co.uk"};
@@ -181,8 +181,6 @@ function view() {
   completedDiv.appendChild(label1);
   resultsDiv.appendChild(uncompletedDiv);
   resultsDiv.appendChild(completedDiv);
-  //resultsRecipeDiv.innerHTML = "";
-  //let totalHTML2 = document.createElement("div");
   for (const [ingredient, amount] of Object.entries(total)) {
     const div3 = document.createElement("div");
     const br = document.createElement("br");
@@ -204,18 +202,6 @@ function view() {
     div3.className = "noNewLine";
     uncompletedDiv.appendChild(div3);
   }
-  //Display total on the right instead of next to
-  /*for (const [recipe, amount] of Object.entries(recipeAmounts)) {
-    console.log(recipeAmounts)
-    const br2 = document.createElement("br");
-    const text2 = document.createTextNode(`${recipe}: ${amount}`);
-    const div4 = document.createElement("div");
-    div4.appendChild(text2);
-    div4.appendChild(br2);
-    div4.className = "noNewLine";
-    totalHTML2.appendChild(div4);
-  }*/
-  //resultsRecipeDiv.appendChild(totalHTML2);
   Array.from(document.getElementsByClassName("checkbox")).forEach(checkbox => {
     checkbox.addEventListener("change", (e) => {
       const ingredient = e.target.parentElement.querySelector("#ingredient").textContent
