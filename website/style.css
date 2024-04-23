@@ -36,6 +36,10 @@ main {
 
 #navbar {
   margin-bottom:10px;
+  position: fixed;
+  top: 0;
+  min-width: 99vw;
+  background-color: white;
 }
 
 @media (min-width: 651px) {
