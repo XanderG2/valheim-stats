@@ -8,9 +8,37 @@ let recipeAmounts = Object.create(null);
 let completed = [];
 let uncompleted = [];
 
+function firstLoad() {
+  load();
+  mainPage();
+}
+
+function save() {
+  localStorage.setItem("total", JSON.stringify(total));
+  localStorage.setItem("recipeAmounts", JSON.stringify(recipeAmounts));
+  localStorage.setItem("completed", JSON.stringify(completed));
+  localStorage.setItem("uncompleted", JSON.stringify(uncompleted));
+}
+
+function load() {
+  if (localStorage.getItem("total")) {
+    total = JSON.parse(localStorage.getItem("total"));
+  }
+  if (localStorage.getItem("recipeAmounts")) {
+    recipeAmounts = JSON.parse(localStorage.getItem("recipeAmounts"));
+  }
+  if (localStorage.getItem("completed")) {
+    completed = JSON.parse(localStorage.getItem("completed"));
+  }
+  if (localStorage.getItem("uncompleted")) {
+    completed = JSON.parse(localStorage.getItem("completed"));
+  }
+}
+
 function mainPage() {
   addNav();
   openRecipesPrep();
+  view();
 }
 
 function addNav() {
@@ -52,11 +80,16 @@ function addNav() {
   clearButton.textContent = "Clear all";
   clearButton.style.align = "center";
   clearButton.id = "clearButton";
-  clearButton.onclick = "clear";
   clearButton.onclick = () => {clear()};
+  const saveButton = document.createElement("button");
+  saveButton.textContent = "Save all";
+  saveButton.style.align = "center";
+  saveButton.id = "clearButton";
+  saveButton.onclick = () => {save()};
   navbar.appendChild(select);
   navbar.appendChild(searchbar);
   navbar.appendChild(clearButton);
+  navbar.appendChild(saveButton);
   navbar.appendChild(homeButton);
   navbar.appendChild(attribution);
 }
@@ -267,4 +300,4 @@ function clear() {
   openRecipesPrep(); // only need this so that the numbers between - and + reset
 }
 
-mainPage();
+firstLoad()
