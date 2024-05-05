@@ -1,8 +1,8 @@
 import json
 import os
 
-files = list(os.walk("data/"))
-files = ["data/"+file for file in files[0][2]]
+files = list(os.walk("../data/"))
+files = ["../data/"+file for file in files[0][2]]
 
 totalData = {}
 
@@ -11,5 +11,5 @@ for file in files:
         jsonData = json.loads(f.read())
     totalData.update(jsonData)
 
-with open("all.json", "w") as f:
+with open("../data/all.json", "w") as f:
     f.write(json.dumps(dict(sorted(totalData.items())), indent=2))

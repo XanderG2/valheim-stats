@@ -27,7 +27,7 @@ def mainmenu():
 def display(file):
     top = tk.Toplevel(root)
     top.title(f"Valheim Material Calculator By Xander | {file}")
-    with open(f"data/{file}.json", "r") as f:
+    with open(f"../data/{file}.json", "r") as f:
         data = json.loads(f.read())
     row = 0
     col = 0
