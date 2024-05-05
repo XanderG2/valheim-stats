@@ -31,7 +31,7 @@ function load() {
     completed = JSON.parse(localStorage.getItem("completed"));
   }
   if (localStorage.getItem("uncompleted")) {
-    completed = JSON.parse(localStorage.getItem("completed"));
+    uncompleted = JSON.parse(localStorage.getItem("uncompleted"));
   }
 }
 
