@@ -9,6 +9,11 @@ let completed = [];
 let uncompleted = [];
 
 function mainPage() {
+  addNav();
+  openRecipesPrep();
+}
+
+function addNav() {
   const options = [
     "all",
     "armour",
@@ -25,6 +30,7 @@ function mainPage() {
   searchbar.type = "search";
   searchbar.id = "search";
   searchbar.placeholder = "Search for recipe...";
+  searchbar.addEventListener("input", (e) => {search(e.target)})
   const select = document.createElement("select");
   select.id = "select";
   select.setAttribute("onchange", "openRecipesPrep()");
@@ -42,8 +48,15 @@ function mainPage() {
   homeButton.textContent = "🏠";
   homeButton.style.float = "right";
   homeButton.onclick = () => {window.location.href = "https://xander.thegillams.co.uk"};
+  const clearButton = document.createElement("button");
+  clearButton.textContent = "Clear all";
+  clearButton.style.align = "center";
+  clearButton.id = "clearButton";
+  clearButton.onclick = "clear";
+  clearButton.onclick = () => {clear()};
   navbar.appendChild(select);
   navbar.appendChild(searchbar);
+  navbar.appendChild(clearButton);
   navbar.appendChild(homeButton);
   navbar.appendChild(attribution);
 }
@@ -245,7 +258,13 @@ function search(target) {
   }
 }
 
-mainPage();
-openRecipesPrep();
+function clear() {
+  view(); // put the completed all into uncompleted
+  total = Object.create(null);
+  recipeAmounts = Object.create(null);
+  uncompleted = [];
+  view();
+  openRecipesPrep(); // only need this so that the numbers between - and + reset
+}
 
-document.getElementById("search").addEventListener("input", (e) => {search(e.target)})
+mainPage();
