@@ -98,17 +98,36 @@ function openRecipesPrep() {
   openRecipes(document.getElementById("select").value);
 }
 
+function el(tagName, attributes) {
+  const element = document.createElement(tagName);
+  for (const [key, value] of Object.entries(attributes)) {
+    if (key === "style") {
+      for (const [key2, value2] of Object.entries(value)) {
+        element.style[key2] = value2;
+      }
+    } else {
+      element[key] = value;
+    }
+    /*if (!("style." in element[key])) {
+      element[key] = value;
+    } else {
+      element.style[key.split("style.")[1]] = value;
+    }*/
+  }
+  return element;
+}
+
 async function openRecipes(JSONFile) {
   const response = await fetch(`../data/${JSONFile}.json`);
   const data = await response.json();
   buttonsDiv.innerHTML = "";
   for (const [recipe, ingredients] of Object.entries(data)) {
-    const subdiv = document.createElement("div");
+    /*const subdiv = document.createElement("div");
+    subdiv.style.display = "flex";
+    subdiv.style.flexDirection = "column";*/
+    const subdiv = el("div", {style: {display: "flex", flexDirection: "column"}})
     const subsubdiv = document.createElement("div");
-    const text = document.createElement("p");
-    text.textContent = recipe;
-    text.className = "noMP";
-    text.id = "text";
+    const text = el("p", {textContent: recipe, className: "noMP", id: "text"});
     const addButton = document.createElement("button");
     addButton.textContent = "+";
     addButton.onclick = () => {
@@ -157,8 +176,6 @@ async function openRecipes(JSONFile) {
         expandButton.querySelector("img").src = "down.svg";
       }
     };
-    subdiv.style.display = "flex";
-    subdiv.style.flexDirection = "column";
     subsubdiv.style.display = "flex";
     subsubdiv.style.flexDirection = "row";
     subsubdiv.style.width = "100%";
