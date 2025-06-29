@@ -1,6 +1,6 @@
 Valheim Stats Material Calculator
 ===
-This is only for items up to version 0.217.38 (Before Ashlands update!)
+_This is only for items up to version 0.217.38 (Before Ashlands update!)_
 
 Valheim material calculator for *most* builds and tools/weapons/armour in the game.  
 All data is pulled from the [valheim wiki](https://valheim.fandom.com).
