@@ -1,0 +1,5232 @@
+{
+  "Abyssal harpoon": {
+    "ingredients": {
+      "Fine wood": 8,
+      "Chitin": 30,
+      "Leather scraps": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Abyssal razor/knife": {
+    "ingredients": {
+      "Fine wood": 4,
+      "Chitin": 20,
+      "Leather scraps": 2,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Ancient bark spear": {
+    "ingredients": {
+      "Troll hide": 4,
+      "Iron": 1,
+      "Ancient bark": 10
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Antler pickaxe": {
+    "ingredients": {
+      "Wood": 10,
+      "Hard antler": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Arbalest": {
+    "ingredients": {
+      "Wood": 10,
+      "Iron": 8,
+      "Root": 4,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Ash Fang": {
+    "ingredients": {
+      "Ashwood": 10,
+      "Charred Bone": 16,
+      "Flametal": 1,
+      "Bonemaw Tooth": 5
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Ashen Cape": {
+    "ingredients": {
+      "Asksvin Hide": 6,
+      "Morgen Sinew": 2,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Ashlands Gourmet Bowl": {
+    "ingredients": {
+      "Cooked Asksvin Tail": 3,
+      "Vineberry Cluster": 5,
+      "Scorching Medley": 2,
+      "Fiery Spice Powder": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Asksvin Cloak": {
+    "ingredients": {
+      "Asksvin Hide": 6,
+      "Morgen Sinew": 2,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Asksvin Saddle": {
+    "ingredients": {
+      "Flametal": 6,
+      "Linen thread": 20,
+      "Morgen Sinew": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Banded shield": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Barley wine base: Fire resistance": {
+    "ingredients": {
+      "Barley": 10,
+      "Cloudberries": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Basalt Bomb": {
+    "ingredients": {
+      "Asksvin Hide": 1,
+      "Asksvin Bladder": 1,
+      "Proustite Powder": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "5"
+  },
+  "Battleaxe": {
+    "ingredients": {
+      "Ancient bark": 30,
+      "Iron": 1,
+      "Leather scraps": 4
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Bell": {
+    "ingredients": {
+      "Bell Fragment": 3
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Berserkir Axes": {
+    "ingredients": {
+      "Charred Bone": 15,
+      "Flametal": 1,
+      "Asksvin Hide": 3
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Bile Bomb": {
+    "ingredients": {
+      "Sap": 1,
+      "Bilebag": 1,
+      "Resin": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "3"
+  },
+  "Black Forest Buffet Platter": {
+    "ingredients": {
+      "Deer stew": 3,
+      "Thistle": 5,
+      "Queens jam": 4,
+      "Woodland Herb Blend": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Black Metal Battleaxe": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Black metal": 30,
+      "Linen thread": 5,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Black Metal Bolt": {
+    "ingredients": {
+      "Black metal": 2,
+      "Wood": 8,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 2
+    },
+    "output": "20"
+  },
+  "Black Metal Missile": {
+    "ingredients": {
+      "Wood": 10,
+      "Black metal": 1
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Black Metal Pickaxe": {
+    "ingredients": {
+      "Yggdrasil wood": 3,
+      "Black metal": 25,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Black metal shield": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Black metal": 8,
+      "Chain": 5,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Black metal tower shield": {
+    "ingredients": {
+      "Fine wood": 15,
+      "Black metal": 10,
+      "Chain": 7,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Black Soup": {
+    "ingredients": {
+      "Bloodbag": 1,
+      "Honey": 1,
+      "Turnip": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Blackmetal atgeir": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Black metal": 30,
+      "Linen thread": 5,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Blackmetal axe": {
+    "ingredients": {
+      "Fine wood": 6,
+      "Black metal": 20,
+      "Linen thread": 5,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Blackmetal knife": {
+    "ingredients": {
+      "Fine wood": 4,
+      "Black metal": 10,
+      "Linen thread": 5,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Blackmetal sword": {
+    "ingredients": {
+      "Fine wood": 2,
+      "Black metal": 20,
+      "Linen thread": 5,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Bleeding Berserkir Axes": {
+    "ingredients": {
+      "Berserkir Axes": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Blob Bomb: Elite Poison": {
+    "ingredients": {
+      "Corked Vial": 1,
+      "Blob trophy": 3,
+      "Resin": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Blob Bomb: Frost": {
+    "ingredients": {
+      "Corked Vial": 1,
+      "Drake trophy": 1,
+      "Resin": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Blob Bomb: Lava": {
+    "ingredients": {
+      "Corked Vial": 1,
+      "Sulfur": 10,
+      "Proustite Powder": 10
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Blob Bomb: Poison": {
+    "ingredients": {
+      "Corked Vial": 1,
+      "Blob trophy": 1,
+      "Resin": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Blob Bomb: Pulp": {
+    "ingredients": {
+      "Corked Vial": 1,
+      "Pulp Trophy": 1,
+      "Dead Pulp": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Blob Bomb: Tar": {
+    "ingredients": {
+      "Corked Vial": 1,
+      "Growth trophy": 1,
+      "Tar": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Blood Fang": {
+    "ingredients": {
+      "Ash Fang": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Blood pudding": {
+    "ingredients": {
+      "Thistle": 2,
+      "Bloodbag": 2,
+      "Barley flour": 4
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Bloodgeon": {
+    "ingredients": {
+      "Flametal Mace": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Bloodgold Arrow": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Feathers": 2,
+      "Timberwood": 8
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Bloodgold Bolt": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Timberwood": 8,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Bloodgold Missile": {
+    "ingredients": {
+      "Timberwood": 10,
+      "Bloodgold": 1
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Blue Fireworks": {
+    "ingredients": {
+      "Basic Fireworks": 1,
+      "Blueberries": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Boar jerky": {
+    "ingredients": {
+      "Boar meat": 1,
+      "Honey": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "2"
+  },
+  "Bone Bolt": {
+    "ingredients": {
+      "Bone fragments": 8,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Bone tower shield": {
+    "ingredients": {
+      "Wood": 10,
+      "Bone fragments": 10,
+      "Skeleton trophy": 3,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Bracelets of the Brave": {
+    "ingredients": {
+      "Black metal": 5,
+      "Lox pelt": 5,
+      "Lox trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bread dough": {
+    "ingredients": {
+      "Barley flour": 10
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "2"
+  },
+  "Breastplate of Ask": {
+    "ingredients": {
+      "Linen thread": 15,
+      "Lox pelt": 4,
+      "Asksvin Hide": 10,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Breastplate of the Protector": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Breastplate of the Protector": 1,
+      "Moose Hide": 8,
+      "Leather Straps": 4
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Brimstone": {
+    "ingredients": {
+      "Flametal": 5,
+      "Sulfur": 5,
+      "Molten Core": 1,
+      "Morgen Trophy": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze": {
+    "ingredients": {
+      "Copper": 10,
+      "Tin": 5
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "5"
+  },
+  "Bronze atgeir": {
+    "ingredients": {
+      "Wood": 10,
+      "Bronze": 1,
+      "Leather scraps": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze axe": {
+    "ingredients": {
+      "Wood": 4,
+      "Bronze": 8,
+      "Leather scraps": 2,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze buckler": {
+    "ingredients": {
+      "Bronze": 1,
+      "Wood": 4
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze helmet": {
+    "ingredients": {
+      "Bronze": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze mace": {
+    "ingredients": {
+      "Wood": 4,
+      "Bronze": 1,
+      "Leather scraps": 3
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze nails": {
+    "ingredients": {
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Bronze Pendant": {
+    "ingredients": {
+      "Bronze": 5,
+      "Bear Trophy": 1,
+      "Ruby": 3
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze pickaxe": {
+    "ingredients": {
+      "Core wood": 3,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze plate cuirass": {
+    "ingredients": {
+      "Bronze": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze plate leggings": {
+    "ingredients": {
+      "Bronze": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze spear": {
+    "ingredients": {
+      "Wood": 5,
+      "Bronze": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronze sword": {
+    "ingredients": {
+      "Wood": 2,
+      "Bronze": 1,
+      "Leather scraps": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Bronzehead arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Bronze": 1,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Brutal Slayer": {
+    "ingredients": {
+      "Slayer": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Butcher Knife": {
+    "ingredients": {
+      "Wood": 2,
+      "Tin": 4
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Cape of Odin": {
+    "ingredients": {
+      "Leather scraps": 10,
+      "Coal": 4,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Cape of the Caller": {
+    "ingredients": {
+      "Seal Pelt": 6,
+      "Nornathread": 2,
+      "Bloodgold": 1,
+      "Refined Eitr": 15
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Carapace Arrow": {
+    "ingredients": {
+      "Carapace": 4,
+      "Feathers": 2,
+      "Wood": 8
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Carapace Bolt": {
+    "ingredients": {
+      "Carapace": 2,
+      "Wood": 8,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Carapace Breastplate": {
+    "ingredients": {
+      "Carapace": 20,
+      "Scale hide": 3,
+      "Iron": 5,
+      "Refined Eitr": 4,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Carapace Buckler": {
+    "ingredients": {
+      "Carapace": 16,
+      "Scale hide": 3,
+      "Refined Eitr": 10,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Carapace Greaves": {
+    "ingredients": {
+      "Carapace": 20,
+      "Scale hide": 3,
+      "Iron": 5,
+      "Refined Eitr": 4,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Carapace Helmet": {
+    "ingredients": {
+      "Carapace": 16,
+      "Scale hide": 3,
+      "Mandible": 2,
+      "Refined Eitr": 4,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Carapace Shield": {
+    "ingredients": {
+      "Carapace": 20,
+      "Scale hide": 3,
+      "Refined Eitr": 10,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Carapace Spear": {
+    "ingredients": {
+      "Yggdrasil wood": 10,
+      "Carapace": 4,
+      "Mandible": 2,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Carrot soup": {
+    "ingredients": {
+      "Mushroom": 1,
+      "Carrot": 3
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Cast: Breastplate of the Protector": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Breastplate of the Protector": 1,
+      "Moose Hide": 8,
+      "Leather Straps": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Chestpiece of the Vanguard": {
+    "ingredients": {
+      "Bloodgold": 12,
+      "Mould: Chestpiece of the Vanguard": 1,
+      "Elaking Hair Bundle": 8,
+      "Leather Straps": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Echo Spike": {
+    "ingredients": {
+      "Bloodgold": 10,
+      "Nornathread": 4,
+      "Frostfire Essence": 1,
+      "Mould: Echo Spike": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Headdress of the Caller": {
+    "ingredients": {
+      "Moose Sinew": 2,
+      "Mould: Headdress of the Caller": 1,
+      "Moose Trophy": 1,
+      "Nornathread": 3
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Helmet of the Protector": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Helmet of the Protector": 1,
+      "Moose Hide": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Hood of the Vanguard": {
+    "ingredients": {
+      "Seal Pelt": 5,
+      "Mould: Hood of the Vanguard": 1,
+      "Moose Hide": 5,
+      "Moose Sinew": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Intricate Key": {
+    "ingredients": {
+      "Bloodgold": 5,
+      "Mould: Intricate Key": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Lightning Strike": {
+    "ingredients": {
+      "Bloodgold": 10,
+      "Nornathread": 5,
+      "Thunderblood Essence": 1,
+      "Mould: Lightning Strike": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Nord Atgeir": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Atgeir": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Axe": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Axe": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Bow": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Bow": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Buckler": {
+    "ingredients": {
+      "Bloodgold": 10,
+      "Mould: Nord Buckler": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Crossbow": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Crossbow": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Dagger": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Dagger": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Greataxe": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Greataxe": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Greatshield": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Greatshield": 1,
+      "Timberwood": 20
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Greatsword": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Greatsword": 1,
+      "Frozen Branch": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Knucklechains": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Knucklechains": 1,
+      "Long Claws": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Mace": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Mace": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Shield": {
+    "ingredients": {
+      "Bloodgold": 15,
+      "Mould: Nord Shield": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Sledge": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Sledge": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Spear": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Spear": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Nord Sword": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Sword": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Northern Vengeance": {
+    "ingredients": {
+      "Ice": 10,
+      "Nornathread": 5,
+      "Hexen Trophy": 1,
+      "Mould: Northern Vengeance": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Robes of the Caller": {
+    "ingredients": {
+      "Bloodgold": 6,
+      "Mould: Robes of the Caller": 1,
+      "Moose Hide": 6,
+      "Nornathread": 5
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Spirit Caller": {
+    "ingredients": {
+      "Frozen Branch": 8,
+      "Nornathread": 5,
+      "Moose Trophy": 1,
+      "Mould: Spirit Caller": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Trousers of the Caller": {
+    "ingredients": {
+      "Bloodgold": 6,
+      "Mould: Trousers of the Caller": 1,
+      "Moose Hide": 6,
+      "Nornathread": 5
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Cast: Trousers of the Protector": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Trousers of the Protector": 1,
+      "Moose Hide": 8,
+      "Leather Straps": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Cast: Trousers of the Vanguard": {
+    "ingredients": {
+      "Bloodgold": 12,
+      "Mould: Trousers of the Vanguard": 1,
+      "Elaking Hair Bundle": 8,
+      "Seal Pelt": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Catapult_ammo": {
+    "ingredients": {
+      "Grausten": 10
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "5"
+  },
+  "Catapult_Ammo_BloodGold": {
+    "ingredients": {
+      "Ice": 2,
+      "Bloodgold": 2,
+      "Proustite Powder": 3
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "5"
+  },
+  "Celebratory Cap": {
+    "ingredients": {
+      "Deer hide": 2,
+      "Bronze": 1,
+      "Bear Hide": 1,
+      "Amber Pearl": 1,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Ceramic Plate": {
+    "ingredients": {
+      "Black Marble": 5
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 2
+    },
+    "output": "5"
+  },
+  "Charred Arrow": {
+    "ingredients": {
+      "Charred Bone": 4,
+      "Feathers": 2,
+      "Ashwood": 8
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Charred Bolt": {
+    "ingredients": {
+      "Charred Bone": 2,
+      "Ashwood": 8,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Chestpiece of the Vanguard": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Chestpiece of the Vanguard": 1,
+      "Elaking Hair Bundle": 8,
+      "Leather Straps": 4
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Club": {
+    "ingredients": {
+      "Wood": 6,
+      "Bone fragments": 0,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Hand / No station",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Cold Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Fenring trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Cooked Egg": {
+    "ingredients": {
+      "Egg": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Copper knife": {
+    "ingredients": {
+      "Wood": 2,
+      "Copper": 8,
+      "Greydwarf eye": 0,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Crown of Valheim": {
+    "ingredients": {
+      "Bloodgold": 5,
+      "Crown Jewel": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Crude bow": {
+    "ingredients": {
+      "Wood": 10,
+      "Leather scraps": 8,
+      "Deer hide": 0,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Crystal battleaxe": {
+    "ingredients": {
+      "Ancient bark": 40,
+      "Silver": 1,
+      "Crystal": 10
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Crystal Heart": {
+    "ingredients": {
+      "Silver": 5,
+      "Crystal": 5,
+      "Stone Golem trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Cultivator": {
+    "ingredients": {
+      "Core wood": 5,
+      "Bronze": 5,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Cyan Fireworks": {
+    "ingredients": {
+      "Basic Fireworks": 1,
+      "Greydwarf eye": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Dead Raiser": {
+    "ingredients": {
+      "Bone fragments": 10,
+      "Refined Eitr": 16,
+      "Skeleton trophy": 4,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Deer hide cape": {
+    "ingredients": {
+      "Deer hide": 4,
+      "Bone fragments": 5,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Deer stew": {
+    "ingredients": {
+      "Cooked deer meat": 1,
+      "Blueberries": 1,
+      "Carrot": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Demolisher": {
+    "ingredients": {
+      "Yggdrasil wood": 10,
+      "Iron": 20,
+      "Refined Eitr": 10,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Drake helmet": {
+    "ingredients": {
+      "Silver": 1,
+      "Wolf pelt": 2,
+      "Drake trophy": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Draugr Fang bow": {
+    "ingredients": {
+      "Ancient bark": 10,
+      "Silver": 20,
+      "Deer hide": 2,
+      "Guck": 10,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Dundr": {
+    "ingredients": {
+      "Ashwood": 10,
+      "Flametal": 1,
+      "Celestial Feather": 3,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Dvergr Lantern": {
+    "ingredients": {
+      "Bronze": 2,
+      "Surtling core": 1,
+      "Crystal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Dyrnwyn": {
+    "ingredients": {
+      "Dyrnwyn Hilt Fragment": 1,
+      "Dyrnwyn Blade Fragment": 1,
+      "Dyrnwyn Tip Fragment": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Early Axes": {
+    "ingredients": {
+      "Wood": 4,
+      "Leather scraps": 0,
+      "Curious Axe Head": 1,
+      "Mysterious Axe Head": 1,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Echo Spike": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Nornathread": 4,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Eitr-weave Hood": {
+    "ingredients": {
+      "Linen thread": 16,
+      "Refined Eitr": 15,
+      "Iron": 2,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Eitr-weave Robe": {
+    "ingredients": {
+      "Linen thread": 20,
+      "Refined Eitr": 20,
+      "Feathers": 10,
+      "Scale hide": 5,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Eitr-weave Trousers": {
+    "ingredients": {
+      "Linen thread": 20,
+      "Refined Eitr": 20,
+      "Scale hide": 10,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Ember Charge": {
+    "ingredients": {
+      "Seal Pelt": 2,
+      "Embers": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "10"
+  },
+  "Evasion Mantle": {
+    "ingredients": {
+      "Black metal": 5,
+      "Fuling berserker trophy": 1,
+      "Linen thread": 10
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Explosive Payload": {
+    "ingredients": {
+      "Asksvin Hide": 2,
+      "Sulfur": 2,
+      "Proustite Powder": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "5"
+  },
+  "Eyescream": {
+    "ingredients": {
+      "Greydwarf eye": 3,
+      "Freeze gland": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Fang spear": {
+    "ingredients": {
+      "Ancient bark": 10,
+      "Wolf fang": 4,
+      "Leather scraps": 2,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Feather Cape": {
+    "ingredients": {
+      "Feathers": 10,
+      "Scale hide": 5,
+      "Refined Eitr": 20,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Fenris claw": {
+    "ingredients": {
+      "Fenris Hair": 10,
+      "Fenris Claw": 6,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Fenris coat": {
+    "ingredients": {
+      "Fenris Hair": 20,
+      "Wolf pelt": 5,
+      "Leather scraps": 10,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Fenris hood": {
+    "ingredients": {
+      "Fenris Hair": 20,
+      "Wolf pelt": 2,
+      "Cultist Trophy": 1,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Fenris leggings": {
+    "ingredients": {
+      "Fenris Hair": 20,
+      "Wolf pelt": 5,
+      "Leather scraps": 10,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Fiery Svinstew": {
+    "ingredients": {
+      "Asksvin Tail": 1,
+      "Vineberry Cluster": 2,
+      "Smoke Puff": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "1"
+  },
+  "Finewood bow": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Core wood": 10,
+      "Deer hide": 2,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Fins of Destiny": {
+    "ingredients": {
+      "Chitin": 5,
+      "Serpent scale": 5,
+      "Serpent trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Fire arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Resin": 8,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "20"
+  },
+  "Fish Soup": {
+    "ingredients": {
+      "Raw fish": 3,
+      "Kale": 2,
+      "Ice": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "1"
+  },
+  "Fish wraps": {
+    "ingredients": {
+      "Cooked fish": 2,
+      "Barley flour": 4
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Fishing Hat": {
+    "ingredients": {
+      "Fish1": 1,
+      "Fish2": 1,
+      "Fish3": 1,
+      "Fish4_cave": 1,
+      "Fish5": 1,
+      "Fish6": 1,
+      "Fish7": 1,
+      "Fish8": 1,
+      "Fish9": 1,
+      "Fish10": 1,
+      "Fish11": 1,
+      "Fish12": 1,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Flametal Breastplate": {
+    "ingredients": {
+      "Flametal": 1,
+      "Asksvin Hide": 3,
+      "Charred Bone": 5,
+      "Morgen Heart": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Flametal Greaves": {
+    "ingredients": {
+      "Flametal": 1,
+      "Asksvin Hide": 3,
+      "Charred Bone": 5
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Flametal Helmet": {
+    "ingredients": {
+      "Flametal": 1,
+      "Asksvin Hide": 3,
+      "Charred Bone": 2,
+      "Refined Eitr": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Flametal Mace": {
+    "ingredients": {
+      "Charred Bone": 10,
+      "Flametal": 1,
+      "Sulfur": 5,
+      "Asksvin Hide": 3
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Flametal Missile": {
+    "ingredients": {
+      "Ashwood": 10,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Flametal Shield": {
+    "ingredients": {
+      "Ashwood": 10,
+      "Flametal": 1,
+      "Asksvin Hide": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Flametal Tower Shield": {
+    "ingredients": {
+      "Ashwood": 15,
+      "Flametal": 1,
+      "Asksvin Hide": 5
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Flint axe": {
+    "ingredients": {
+      "Wood": 4,
+      "Flint": 6,
+      "Leather scraps": 0,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Flint knife": {
+    "ingredients": {
+      "Wood": 2,
+      "Flint": 4,
+      "Leather scraps": 2,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Flint spear": {
+    "ingredients": {
+      "Wood": 5,
+      "Flint": 10,
+      "Leather scraps": 2,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Flinthead arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Flint": 2,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "20"
+  },
+  "Frost arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Obsidian": 4,
+      "Feathers": 2,
+      "Freeze gland": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 4
+    },
+    "output": "20"
+  },
+  "Frostfire Atgeir": {
+    "ingredients": {
+      "Nord Atgeir": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Axe": {
+    "ingredients": {
+      "Nord Axe": 1,
+      "Bloodgold": 20,
+      "Frostfire Essence": 1,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Bow": {
+    "ingredients": {
+      "Nord Bow": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Crossbow": {
+    "ingredients": {
+      "Nord Crossbow": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Dagger": {
+    "ingredients": {
+      "Nord Dagger": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Greataxe": {
+    "ingredients": {
+      "Nord Greataxe": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Greatsword": {
+    "ingredients": {
+      "Nord Greatsword": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Knucklechains": {
+    "ingredients": {
+      "Nord Knucklechains": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Mace": {
+    "ingredients": {
+      "Nord Mace": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Sledge": {
+    "ingredients": {
+      "Nord Sledge": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Spear": {
+    "ingredients": {
+      "Nord Spear": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostfire Sword": {
+    "ingredients": {
+      "Nord Sword": 1,
+      "Bloodgold": 1,
+      "Frostfire Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Frostner": {
+    "ingredients": {
+      "Ancient bark": 10,
+      "Silver": 1,
+      "Ymir flesh": 5,
+      "Freeze gland": 5
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Frosty Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Drake trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Grappling Hook": {
+    "ingredients": {
+      "Yggdrasil wood": 10,
+      "Refined Eitr": 10,
+      "Mandible": 4,
+      "Hook": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Green Fireworks": {
+    "ingredients": {
+      "Basic Fireworks": 1,
+      "Guck": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Hammer": {
+    "ingredients": {
+      "Wood": 3,
+      "Stone": 2,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Hand / No station",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Headdress of the Bear": {
+    "ingredients": {
+      "Bear Hide": 5,
+      "Bear Trophy": 1,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Headdress of the Caller": {
+    "ingredients": {
+      "Moose Sinew": 2,
+      "Mould: Headdress of the Caller": 1,
+      "Moose Trophy": 1,
+      "Nornathread": 3,
+      "Bloodgold": 1
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Heart of the Forest": {
+    "ingredients": {
+      "Bronze": 5,
+      "Ancient Seed": 5,
+      "Greydwarf Shaman trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Hearty Mountain Logger's Stew": {
+    "ingredients": {
+      "Wolf skewer": 2,
+      "Onion soup": 3,
+      "Carrot": 4,
+      "Mountain Peak Pepper Powder": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Heavy Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Serpent trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Helmet of the Protector": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Helmet of the Protector": 1,
+      "Moose Hide": 4
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Himminafl": {
+    "ingredients": {
+      "Yggdrasil wood": 10,
+      "Refined Eitr": 15,
+      "Silver": 5,
+      "Mandible": 2,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Hoe": {
+    "ingredients": {
+      "Wood": 5,
+      "Stone": 2,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Hood of Ask": {
+    "ingredients": {
+      "Linen thread": 15,
+      "Lox pelt": 4,
+      "Asksvin Hide": 10,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Hood of Embla": {
+    "ingredients": {
+      "Linen thread": 16,
+      "Refined Eitr": 15,
+      "Asksvin Hide": 2,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Hood of Odin": {
+    "ingredients": {
+      "Leather scraps": 10,
+      "Coal": 4,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Hood of the Vanguard": {
+    "ingredients": {
+      "Seal Pelt": 5,
+      "Mould: Hood of the Vanguard": 1,
+      "Moose Hide": 5,
+      "Moose Sinew": 1,
+      "Bloodgold": 1
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Horn of Celebration": {
+    "ingredients": {
+      "Bronze": 2,
+      "Troll hide": 2,
+      "Iron": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Hot Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Warrior Trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Huntsman bow": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Iron": 1,
+      "Feathers": 10,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Iron atgeir": {
+    "ingredients": {
+      "Wood": 10,
+      "Iron": 1,
+      "Leather scraps": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron axe": {
+    "ingredients": {
+      "Wood": 4,
+      "Iron": 20,
+      "Leather scraps": 2,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron Bolt": {
+    "ingredients": {
+      "Wood": 8,
+      "Iron": 1,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Iron Brooch": {
+    "ingredients": {
+      "Iron": 5,
+      "Ancient bark": 5,
+      "Leech trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Iron buckler": {
+    "ingredients": {
+      "Iron": 1,
+      "Ancient bark": 4
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron greaves": {
+    "ingredients": {
+      "Iron": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron helmet": {
+    "ingredients": {
+      "Iron": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Iron mace": {
+    "ingredients": {
+      "Wood": 4,
+      "Iron": 1,
+      "Leather scraps": 3
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron nails": {
+    "ingredients": {
+      "Iron": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "10"
+  },
+  "Iron pickaxe": {
+    "ingredients": {
+      "Core wood": 3,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron scale mail": {
+    "ingredients": {
+      "Iron": 1,
+      "Deer hide": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron sledge": {
+    "ingredients": {
+      "Ancient bark": 10,
+      "Iron": 1,
+      "Ymir flesh": 4,
+      "Draugr Elite trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron sword": {
+    "ingredients": {
+      "Wood": 2,
+      "Iron": 1,
+      "Leather scraps": 3
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Iron tower shield": {
+    "ingredients": {
+      "Fine wood": 15,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Ironhead arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Iron": 1,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "20"
+  },
+  "J\u00f6rmundling": {
+    "ingredients": {
+      "Flametal": 5,
+      "Refined Eitr": 5,
+      "Bloodstone": 1,
+      "Fallen Valkyrie Trophy": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Jotun Bane": {
+    "ingredients": {
+      "Yggdrasil wood": 5,
+      "Iron": 15,
+      "Bilebag": 3,
+      "Refined Eitr": 10,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Klossen": {
+    "ingredients": {
+      "Flametal Mace": 1,
+      "Flametal": 1,
+      "Jade": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Krom": {
+    "ingredients": {
+      "Iron": 30,
+      "Bronze": 20,
+      "Scale hide": 5,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Leather helmet": {
+    "ingredients": {
+      "Deer hide": 6,
+      "Bone fragments": 0,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Leather pants": {
+    "ingredients": {
+      "Deer hide": 6,
+      "Bone fragments": 0,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Leather tunic": {
+    "ingredients": {
+      "Deer hide": 6,
+      "Bone fragments": 0,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lightning Strike": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Nornathread": 5,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Linen cape": {
+    "ingredients": {
+      "Linen thread": 20,
+      "Silver": 1,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lingonberry Juice": {
+    "ingredients": {
+      "Lingonberries": 5,
+      "Ice": 5
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "1"
+  },
+  "Loincloth of the Bear": {
+    "ingredients": {
+      "Bear Hide": 5,
+      "Blueberries": 4,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lox cape": {
+    "ingredients": {
+      "Lox pelt": 6,
+      "Silver": 2,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lox Fur Hood": {
+    "ingredients": {
+      "Lox pelt": 4,
+      "Bone fragments": 4,
+      "Writhan Roots": 2,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lox Fur Jacket": {
+    "ingredients": {
+      "Lox pelt": 5,
+      "Bone fragments": 8,
+      "Root": 2,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lox Fur Trousers": {
+    "ingredients": {
+      "Lox pelt": 5,
+      "Bone fragments": 8,
+      "Root": 2,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Lox saddle": {
+    "ingredients": {
+      "Leather scraps": 10,
+      "Linen thread": 20,
+      "Black metal": 15
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Marinated Greens": {
+    "ingredients": {
+      "Sap": 3,
+      "Magecap": 2,
+      "Fiddlehead": 2,
+      "Smoke Puff": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "1"
+  },
+  "Mashed Meat": {
+    "ingredients": {
+      "Asksvin Tail": 1,
+      "Volture Meat": 1,
+      "Fiddlehead": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "1"
+  },
+  "Mead Base: Animal Whispers": {
+    "ingredients": {
+      "Onion": 5,
+      "Carrot": 10,
+      "Pungent Pebbles": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Anti-Sting": {
+    "ingredients": {
+      "Cloudberries": 10,
+      "Fish7": 3,
+      "Fragrant Bundle": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Berserkir": {
+    "ingredients": {
+      "Mushroom": 10,
+      "Yellow mushroom": 10,
+      "Toadstool": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Frost resistance": {
+    "ingredients": {
+      "Honey": 10,
+      "Thistle": 5,
+      "Bloodbag": 2,
+      "Greydwarf eye": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Lightfoot": {
+    "ingredients": {
+      "Scale hide": 2,
+      "Feathers": 5,
+      "Magecap": 5
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Lingering Eitr": {
+    "ingredients": {
+      "Sap": 10,
+      "Vineberry Cluster": 10,
+      "Magecap": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Lingering Health": {
+    "ingredients": {
+      "Sap": 10,
+      "Vineberry Cluster": 10,
+      "Smoke Puff": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Lingering Stamina": {
+    "ingredients": {
+      "Sap": 10,
+      "Cloudberries": 10,
+      "Jotun Puffs": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Major Healing": {
+    "ingredients": {
+      "Honey": 10,
+      "Blood clot": 4,
+      "Royal Jelly": 5
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Medium healing": {
+    "ingredients": {
+      "Honey": 10,
+      "Bloodbag": 4,
+      "Raspberry": 10,
+      "Dandelion": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Medium stamina": {
+    "ingredients": {
+      "Honey": 10,
+      "Cloudberries": 10,
+      "Yellow mushroom": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Minor Eitr": {
+    "ingredients": {
+      "Honey": 10,
+      "Sap": 5,
+      "Jotun Puffs": 2,
+      "Magecap": 5
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Minor healing": {
+    "ingredients": {
+      "Honey": 10,
+      "Blueberries": 5,
+      "Raspberry": 10,
+      "Dandelion": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Minor stamina": {
+    "ingredients": {
+      "Honey": 10,
+      "Raspberry": 10,
+      "Yellow mushroom": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Poison resistance": {
+    "ingredients": {
+      "Honey": 10,
+      "Thistle": 5,
+      "Neck tail": 1,
+      "Coal": 10
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Ratatosk": {
+    "ingredients": {
+      "Honey": 10,
+      "Blueberries": 10,
+      "Cured Squirrel Hamstring": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead base: Tasty": {
+    "ingredients": {
+      "Honey": 10,
+      "Raspberry": 10,
+      "Blueberries": 5
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Troll Endurance": {
+    "ingredients": {
+      "Fish5": 2,
+      "Honey": 10,
+      "Powdered Dragon Eggshells": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead Base: Vananidir": {
+    "ingredients": {
+      "Dandelion": 10,
+      "Fish1": 2,
+      "Fresh Seaweed": 1
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mead horn of Odin": {
+    "ingredients": {
+      "Fine wood": 4,
+      "Deer trophy": 1,
+      "Resin": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Meat In Bread": {
+    "ingredients": {
+      "Moose Meat": 1,
+      "Kale": 2,
+      "Oat Flour": 1,
+      "Lingonberries": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "2"
+  },
+  "Meatballs and Poteitr": {
+    "ingredients": {
+      "Moose Meat": 1,
+      "Lingonberries": 2,
+      "Poteitr": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "1"
+  },
+  "Mechanical Spring": {
+    "ingredients": {
+      "Refined Eitr": 1,
+      "Iron": 3
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Minced Meat Sauce": {
+    "ingredients": {
+      "Boar meat": 1,
+      "Neck tail": 1,
+      "Carrot": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Mistwalker": {
+    "ingredients": {
+      "Fine wood": 3,
+      "Iron": 15,
+      "Refined Eitr": 10,
+      "Wisp": 3,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Misty Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Lox trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Moose Hide Cape": {
+    "ingredients": {
+      "Moose Hide": 6,
+      "Moose Sinew": 2,
+      "Bloodgold": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Moose Saddle": {
+    "ingredients": {
+      "Bloodgold": 4,
+      "Seal Pelt": 5,
+      "Timberwood": 5,
+      "Linen thread": 15
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Mossy Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Troll Trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Muckshake": {
+    "ingredients": {
+      "Ooze": 1,
+      "Raspberry": 2,
+      "Blueberries": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Mushroom Omelette": {
+    "ingredients": {
+      "Egg": 3,
+      "Jotun Puffs": 3
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "1"
+  },
+  "Mushrooms Galore \u00e1 la Mistlands": {
+    "ingredients": {
+      "Misthare Supreme": 1,
+      "Cooked Seeker Meat": 3,
+      "Yggdrasil Porridge": 1,
+      "Herbs of the Hidden Hills": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Neckstabber": {
+    "ingredients": {
+      "Bloodgold": 5,
+      "Long Claws": 5,
+      "Moose Trophy": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Needle arrow": {
+    "ingredients": {
+      "Needle": 4,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 4
+    },
+    "output": "20"
+  },
+  "Nidh\u00f6gg": {
+    "ingredients": {
+      "Charred Bone": 3,
+      "Flametal": 1,
+      "Asksvin Hide": 2
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Nidh\u00f6gg the Bleeding": {
+    "ingredients": {
+      "Nidh\u00f6gg": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Nidh\u00f6gg the Primal": {
+    "ingredients": {
+      "Nidh\u00f6gg": 1,
+      "Flametal": 1,
+      "Jade": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Nidh\u00f6gg the Thundering": {
+    "ingredients": {
+      "Nidh\u00f6gg": 1,
+      "Flametal": 1,
+      "Iolite": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Nimble Anklet": {
+    "ingredients": {
+      "Iron": 5,
+      "Withered bone": 5,
+      "Surtling trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Atgeir": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Atgeir": 1,
+      "Timberwood": 10,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Axe": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Axe": 1,
+      "Timberwood": 10,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Bow": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Bow": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Buckler": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Buckler": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Crossbow": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Crossbow": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Dagger": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Dagger": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Greataxe": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Greataxe": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Greatshield": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Greatshield": 1,
+      "Timberwood": 20
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Greatsword": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Greatsword": 1,
+      "Frozen Branch": 2
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Knucklechains": {
+    "ingredients": {
+      "Bloodgold": 20,
+      "Mould: Nord Knucklechains": 1,
+      "Timberwood": 10,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Mace": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Mace": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Shield": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Shield": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Sledge": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Sledge": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Spear": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Spear": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Nord Sword": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Nord Sword": 1,
+      "Timberwood": 10
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Northern Morning Fare": {
+    "ingredients": {
+      "Cooked Moose Meat": 3,
+      "Poteitr": 5,
+      "Oat Flour": 2,
+      "Seasoning of the Gourd": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Northern Vengeance": {
+    "ingredients": {
+      "Ice": 10,
+      "Nornathread": 5,
+      "Hexen Trophy": 1,
+      "Bloodgold": 1
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Oat Milk": {
+    "ingredients": {
+      "Oats": 5,
+      "Ice": 5
+    },
+    "station": {
+      "name": "Mead Ketill",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Oatmeal": {
+    "ingredients": {
+      "Oats": 2,
+      "Lingonberries": 2,
+      "Oat Milk": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "1"
+  },
+  "Obsidian arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Obsidian": 4,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 3
+    },
+    "output": "20"
+  },
+  "Onion soup": {
+    "ingredients": {
+      "Onion": 3
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Ooze bomb": {
+    "ingredients": {
+      "Leather scraps": 5,
+      "Ooze": 5,
+      "Resin": 3
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "5"
+  },
+  "Oven Pancake Batter": {
+    "ingredients": {
+      "Moose Meat": 1,
+      "Poteitr": 2,
+      "Lingonberries": 2,
+      "Oat Flour": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "1"
+  },
+  "Padded cuirass": {
+    "ingredients": {
+      "Iron": 10,
+      "Linen thread": 20,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Padded greaves": {
+    "ingredients": {
+      "Iron": 10,
+      "Linen thread": 20,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Padded helmet": {
+    "ingredients": {
+      "Iron": 10,
+      "Linen thread": 15,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Pancakes": {
+    "ingredients": {
+      "Oat Milk": 1,
+      "Oat Flour": 2,
+      "Egg": 2,
+      "Blueberries": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "3"
+  },
+  "Patterns of the Bear": {
+    "ingredients": {
+      "Bear Hide": 5,
+      "Bear Paw": 2,
+      "Blueberries": 4,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Paws of the Bear": {
+    "ingredients": {
+      "Bear Hide": 2,
+      "Bear Paw": 2,
+      "Leather scraps": 4,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Plains Pie Picnic": {
+    "ingredients": {
+      "Bread": 3,
+      "Lox meat pie": 2,
+      "Cloudberries": 5,
+      "Grasslands Herbalist Harvest": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Poison arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Obsidian": 4,
+      "Feathers": 2,
+      "Ooze": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 3
+    },
+    "output": "20"
+  },
+  "Porcupine": {
+    "ingredients": {
+      "Fine wood": 5,
+      "Iron": 20,
+      "Needle": 5,
+      "Linen thread": 10,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Primal Berserkir Axes": {
+    "ingredients": {
+      "Berserkir Axes": 1,
+      "Flametal": 1,
+      "Jade": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Primal Slayer": {
+    "ingredients": {
+      "Slayer": 1,
+      "Flametal": 1,
+      "Jade": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Pulled Bear": {
+    "ingredients": {
+      "Cooked Bear Meat": 1,
+      "Carrot": 2,
+      "Blueberries": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Pulsating Earrings": {
+    "ingredients": {
+      "Carapace": 5,
+      "Refined Eitr": 5,
+      "Gjall Trophy": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Purple Fireworks": {
+    "ingredients": {
+      "Basic Fireworks": 1,
+      "Turnip": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Queens jam": {
+    "ingredients": {
+      "Raspberry": 8,
+      "Blueberries": 6
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 1
+    },
+    "output": "4"
+  },
+  "Rag pants": {
+    "ingredients": {
+      "Leather scraps": 5,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Rag tunic": {
+    "ingredients": {
+      "Leather scraps": 5,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Raw fish": {
+    "ingredients": {
+      "Fish1": 1,
+      "Fish2": 1,
+      "Fish3": 1,
+      "Fish4_cave": 1,
+      "Fish5": 1,
+      "Fish6": 1,
+      "Fish7": 1,
+      "Fish8": 1,
+      "Fish9": 1,
+      "Fish10": 1,
+      "Fish11": 1,
+      "Fish12": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Raw Kale Chips": {
+    "ingredients": {
+      "Kale": 12
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "4"
+  },
+  "Red Fireworks": {
+    "ingredients": {
+      "Basic Fireworks": 1,
+      "Raspberry": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Resounding Shackle": {
+    "ingredients": {
+      "Refined Eitr": 5,
+      "Scale hide": 5,
+      "Mandible": 1,
+      "Seeker Trophy": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Ripper": {
+    "ingredients": {
+      "Ashwood": 10,
+      "Flametal": 1,
+      "Morgen Sinew": 2,
+      "Bonemaw Tooth": 4
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Robes of Embla": {
+    "ingredients": {
+      "Linen thread": 20,
+      "Refined Eitr": 20,
+      "Asksvin Hide": 10,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Robes of the Caller": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Robes of the Caller": 1,
+      "Moose Hide": 6,
+      "Nornathread": 5
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Root Fang": {
+    "ingredients": {
+      "Ash Fang": 1,
+      "Flametal": 1,
+      "Jade": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Root harnesk": {
+    "ingredients": {
+      "Root": 10,
+      "Ancient bark": 10,
+      "Deer hide": 2,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Root leggings": {
+    "ingredients": {
+      "Root": 10,
+      "Ancient bark": 10,
+      "Deer hide": 2,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Root mask": {
+    "ingredients": {
+      "Root": 10,
+      "Ancient bark": 10,
+      "Leather scraps": 4,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Root Ripper": {
+    "ingredients": {
+      "Ripper": 1,
+      "Flametal": 1,
+      "Jade": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Sailor's Bounty": {
+    "ingredients": {
+      "Cooked fish": 5,
+      "Thistle": 4,
+      "Cooked serpent meat": 2,
+      "Seafarer's Herbs": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Salad": {
+    "ingredients": {
+      "Jotun Puffs": 3,
+      "Onion": 3,
+      "Cloudberries": 3
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "3"
+  },
+  "Sausages": {
+    "ingredients": {
+      "Entrails": 4,
+      "Boar meat": 1,
+      "Thistle": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 2
+    },
+    "output": "4"
+  },
+  "Scorching Medley": {
+    "ingredients": {
+      "Jotun Puffs": 3,
+      "Onion": 3,
+      "Fiddlehead": 3
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "3"
+  },
+  "Scourging Slayer": {
+    "ingredients": {
+      "Slayer": 1,
+      "Flametal": 1,
+      "Iolite": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Scythe": {
+    "ingredients": {
+      "Scythe Handle": 1,
+      "Silver": 6,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Seal Meat Soup": {
+    "ingredients": {
+      "Seal Blubber": 2,
+      "Kale": 2,
+      "Ice": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "1"
+  },
+  "Sealbreaker": {
+    "ingredients": {
+      "Sealbreaker fragment": 9
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Seeker Aspic": {
+    "ingredients": {
+      "Seeker Meat": 2,
+      "Magecap": 2,
+      "Royal Jelly": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "2"
+  },
+  "Serpent scale shield": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Iron": 4,
+      "Serpent scale": 8,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Serpent stew": {
+    "ingredients": {
+      "Mushroom": 1,
+      "Cooked serpent meat": 1,
+      "Honey": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Sharpening stone": {
+    "ingredients": {
+      "Stone": 5
+    },
+    "station": {
+      "name": "Stonecutter",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Shield Core": {
+    "ingredients": {
+      "Black Core": 1,
+      "Surtling core": 1,
+      "Ceramic Plate": 5
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Shield of Roots": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Writhan Roots": 1,
+      "Iron": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Silver arrow": {
+    "ingredients": {
+      "Wood": 8,
+      "Silver": 1,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "20"
+  },
+  "Silver knife": {
+    "ingredients": {
+      "Wood": 2,
+      "Silver": 1,
+      "Leather scraps": 3,
+      "Iron": 2
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Silver shield": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Silver": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Silver sword": {
+    "ingredients": {
+      "Wood": 2,
+      "Silver": 1,
+      "Leather scraps": 3,
+      "Iron": 5
+    },
+    "station": {
+      "name": "Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Sizzling Berry Broth": {
+    "ingredients": {
+      "Sap": 3,
+      "Fiddlehead": 2,
+      "Vineberry Cluster": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "1"
+  },
+  "Skoll and Hati": {
+    "ingredients": {
+      "Fine wood": 4,
+      "Iron": 10,
+      "Black metal": 10,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Skull Splittur": {
+    "ingredients": {
+      "Iron": 30,
+      "Yggdrasil wood": 15,
+      "Refined Eitr": 10,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Slayer": {
+    "ingredients": {
+      "Flametal": 1,
+      "Asksvin Hide": 5,
+      "Morgen Sinew": 3
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Smoke Bomb": {
+    "ingredients": {
+      "Smoke Puff": 1,
+      "Asksvin Bladder": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "10"
+  },
+  "Smoked Fish": {
+    "ingredients": {
+      "Raw fish": 1,
+      "Kale": 1,
+      "Poteitr": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "1"
+  },
+  "Smoked Moose Meat": {
+    "ingredients": {
+      "Moose Meat": 1,
+      "Kale": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "1"
+  },
+  "Snow Shovel": {
+    "ingredients": {
+      "Fine wood": 5,
+      "Flametal": 4,
+      "Embers": 2,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Snowball": {
+    "ingredients": {
+      "Ice": 5
+    },
+    "station": {
+      "name": "Hand / No station",
+      "level": 1
+    },
+    "output": "10"
+  },
+  "Sparkling Shroomshake": {
+    "ingredients": {
+      "Sap": 4,
+      "Vineberry Cluster": 2,
+      "Smoke Puff": 2,
+      "Magecap": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 6
+    },
+    "output": "1"
+  },
+  "Spicy Marmalade": {
+    "ingredients": {
+      "Vineberry Cluster": 3,
+      "Honey": 1,
+      "Fiddlehead": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "1"
+  },
+  "Spinesnap": {
+    "ingredients": {
+      "Fine wood": 10,
+      "Bone fragments": 40,
+      "Refined Eitr": 10,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Spirit Caller": {
+    "ingredients": {
+      "Frozen Branch": 8,
+      "Nornathread": 5,
+      "Moose Trophy": 1,
+      "Bloodgold": 1
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Splitnir": {
+    "ingredients": {
+      "Ashwood": 10,
+      "Flametal": 6,
+      "Asksvin Hide": 2,
+      "Bonemaw Tooth": 3,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Splitnir the Bleeding": {
+    "ingredients": {
+      "Splitnir": 1,
+      "Flametal": 6,
+      "Bloodstone": 1,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Splitnir the Primal": {
+    "ingredients": {
+      "Splitnir": 1,
+      "Flametal": 6,
+      "Jade": 1,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Splitnir the Storming": {
+    "ingredients": {
+      "Splitnir": 1,
+      "Flametal": 6,
+      "Iolite": 1,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Staff of Embers": {
+    "ingredients": {
+      "Yggdrasil wood": 20,
+      "Surtling core": 4,
+      "Refined Eitr": 16,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Staff of Fracturing": {
+    "ingredients": {
+      "Charred Bone": 15,
+      "Ashwood": 5,
+      "Proustite Powder": 8,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Staff of Frost": {
+    "ingredients": {
+      "Yggdrasil wood": 20,
+      "Freeze gland": 4,
+      "Refined Eitr": 16,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Staff of Protection": {
+    "ingredients": {
+      "Yggdrasil wood": 20,
+      "Blood clot": 4,
+      "Refined Eitr": 16,
+      "Black Marble": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Staff of the Wild": {
+    "ingredients": {
+      "Ashwood": 15,
+      "Fiddlehead": 10,
+      "Celestial Feather": 3,
+      "Jade": 1,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Stagbreaker": {
+    "ingredients": {
+      "Core wood": 20,
+      "Deer trophy": 5,
+      "Leather scraps": 2,
+      "Bone fragments": 0,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Sticky Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Abomination trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Stingy Fishing Bait": {
+    "ingredients": {
+      "Fishing bait": 20,
+      "Fuling trophy": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Stone axe": {
+    "ingredients": {
+      "Wood": 5,
+      "Stone": 4,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Hand / No station",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Storm Fang": {
+    "ingredients": {
+      "Ash Fang": 1,
+      "Flametal": 1,
+      "Iolite": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Storm Ripper": {
+    "ingredients": {
+      "Ripper": 1,
+      "Flametal": 1,
+      "Iolite": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Storm Star": {
+    "ingredients": {
+      "Flametal Mace": 1,
+      "Flametal": 1,
+      "Iolite": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Swamp Dweller's Delight": {
+    "ingredients": {
+      "Sausages": 8,
+      "Bloodbag": 4,
+      "Turnip stew": 2,
+      "Woodland Herb Blend": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Tankard": {
+    "ingredients": {
+      "Fine wood": 5,
+      "Resin": 2
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Thunderblood Atgeir": {
+    "ingredients": {
+      "Nord Atgeir": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Axe": {
+    "ingredients": {
+      "Nord Axe": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Bow": {
+    "ingredients": {
+      "Nord Bow": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Crossbow": {
+    "ingredients": {
+      "Nord Crossbow": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Dagger": {
+    "ingredients": {
+      "Nord Dagger": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Greataxe": {
+    "ingredients": {
+      "Nord Greataxe": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Greatsword": {
+    "ingredients": {
+      "Nord Greatsword": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Knucklechains": {
+    "ingredients": {
+      "Nord Knucklechains": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Mace": {
+    "ingredients": {
+      "Nord Mace": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Sledge": {
+    "ingredients": {
+      "Nord Sledge": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Spear": {
+    "ingredients": {
+      "Nord Spear": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thunderblood Sword": {
+    "ingredients": {
+      "Nord Sword": 1,
+      "Bloodgold": 1,
+      "Thunderblood Essence": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Thundering Berserkir Axes": {
+    "ingredients": {
+      "Berserkir Axes": 1,
+      "Flametal": 1,
+      "Iolite": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Torch": {
+    "ingredients": {
+      "Wood": 1,
+      "Resin": 1
+    },
+    "station": {
+      "name": "Hand / No station",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Troll hide cape": {
+    "ingredients": {
+      "Troll hide": 10,
+      "Bone fragments": 10,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Troll leather helmet": {
+    "ingredients": {
+      "Troll hide": 5,
+      "Bone fragments": 3,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Troll leather pants": {
+    "ingredients": {
+      "Troll hide": 5,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Troll leather tunic": {
+    "ingredients": {
+      "Troll hide": 5,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Trollstav": {
+    "ingredients": {
+      "Charred Bone": 15,
+      "Troll Trophy": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Trousers of Ask": {
+    "ingredients": {
+      "Linen thread": 15,
+      "Lox pelt": 4,
+      "Asksvin Hide": 10,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Trousers of Embla": {
+    "ingredients": {
+      "Linen thread": 20,
+      "Refined Eitr": 20,
+      "Asksvin Hide": 10,
+      "Flametal": 1
+    },
+    "station": {
+      "name": "Galdr Table",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Trousers of the Caller": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Trousers of the Caller": 1,
+      "Moose Hide": 6,
+      "Nornathread": 5
+    },
+    "station": {
+      "name": "Galdr Table 3 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Trousers of the Protector": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Trousers of the Protector": 1,
+      "Moose Hide": 8,
+      "Leather Straps": 4
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Trousers of the Vanguard": {
+    "ingredients": {
+      "Bloodgold": 1,
+      "Mould: Trousers of the Vanguard": 1,
+      "Elaking Hair Bundle": 8,
+      "Seal Pelt": 4
+    },
+    "station": {
+      "name": "Black Forge 4 \u00b7 upgrade only",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Turnip stew": {
+    "ingredients": {
+      "Boar meat": 1,
+      "Turnip": 3
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Unbaked Lox Pie": {
+    "ingredients": {
+      "Cloudberries": 2,
+      "Lox meat": 2,
+      "Barley flour": 4
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Unbaked Poteitr": {
+    "ingredients": {
+      "Seal Blubber": 1,
+      "Kale": 2,
+      "Poteitr": 1,
+      "Oat Flour": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 7
+    },
+    "output": "1"
+  },
+  "Unbaked Sweetbread": {
+    "ingredients": {
+      "Cloudberries": 2,
+      "Egg": 1,
+      "Barley flour": 1,
+      "Honey": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Fish 'n' Bread": {
+    "ingredients": {
+      "Fish9": 1,
+      "Bread dough": 2
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Honey Glazed Chicken": {
+    "ingredients": {
+      "Chicken Meat": 1,
+      "Honey": 3,
+      "Jotun Puffs": 2
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Meat Platter": {
+    "ingredients": {
+      "Seeker Meat": 1,
+      "Lox meat": 1,
+      "Hare Meat": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Misthare Supreme": {
+    "ingredients": {
+      "Hare Meat": 1,
+      "Jotun Puffs": 3,
+      "Carrot": 2
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Piquant Pie": {
+    "ingredients": {
+      "Vineberry Cluster": 2,
+      "Asksvin Tail": 2,
+      "Barley flour": 4
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Roasted Crust Pie": {
+    "ingredients": {
+      "Vineberry Cluster": 2,
+      "Volture Egg": 1,
+      "Barley flour": 4
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Uncooked Stuffed Mushroom": {
+    "ingredients": {
+      "Magecap": 3,
+      "Blood clot": 1,
+      "Turnip": 2
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Vilebone Cage": {
+    "ingredients": {
+      "Bear Hide": 4,
+      "Vile Ribcage": 3,
+      "Linen thread": 4,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Vilebone Drapes": {
+    "ingredients": {
+      "Bear Hide": 10,
+      "Vile Ribcage": 1,
+      "Linen thread": 4,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Vilebone Maulclaws": {
+    "ingredients": {
+      "Bear Hide": 2,
+      "Vile Ribcage": 2,
+      "Black metal": 2,
+      "Linen thread": 4,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Vilebone Visage": {
+    "ingredients": {
+      "Bear Hide": 5,
+      "Vile Trophy": 1,
+      "Black Metal": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Whole Roasted Meadow Boar": {
+    "ingredients": {
+      "Cooked deer meat": 2,
+      "Cooked boar meat": 5,
+      "Dandelion": 4,
+      "Woodland Herb Blend": 1
+    },
+    "station": {
+      "name": "Food Preparation Table",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Wisplight": {
+    "ingredients": {
+      "Silver": 1,
+      "Wisp": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Witch Crown": {
+    "ingredients": {
+      "Bloodgold": 5,
+      "Nornathread": 5,
+      "Hexen Trophy": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Wolf armor chest": {
+    "ingredients": {
+      "Silver": 1,
+      "Wolf pelt": 5,
+      "Chain": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Wolf armor legs": {
+    "ingredients": {
+      "Silver": 1,
+      "Wolf pelt": 5,
+      "Wolf fang": 4
+    },
+    "station": {
+      "name": "Forge",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Wolf fur cape": {
+    "ingredients": {
+      "Wolf pelt": 6,
+      "Silver": 1,
+      "Wolf trophy": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 2
+    },
+    "output": "1"
+  },
+  "Wolf jerky": {
+    "ingredients": {
+      "Wolf meat": 1,
+      "Honey": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 3
+    },
+    "output": "2"
+  },
+  "Wolf Sight": {
+    "ingredients": {
+      "Silver": 5,
+      "Wolf fang": 5,
+      "Fenring trophy": 1
+    },
+    "station": {
+      "name": "Forge",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Wolf skewer": {
+    "ingredients": {
+      "Wolf meat": 1,
+      "Mushroom": 2,
+      "Onion": 1
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 3
+    },
+    "output": "1"
+  },
+  "Wood arrow": {
+    "ingredients": {
+      "Wood": 8
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Wood shield": {
+    "ingredients": {
+      "Wood": 10,
+      "Resin": 4,
+      "Leather scraps": 4,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Wood tower shield": {
+    "ingredients": {
+      "Wood": 10,
+      "Leather scraps": 6,
+      "Wooden": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Wooden Missile": {
+    "ingredients": {
+      "Core wood": 5,
+      "Feathers": 2
+    },
+    "station": {
+      "name": "Artisan Table",
+      "level": 1
+    },
+    "output": "20"
+  },
+  "Wooden Sword": {
+    "ingredients": {
+      "Wood": 5,
+      "Fine wood": 3,
+      "Core wood": 2,
+      "Bronze": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Wound Ripper": {
+    "ingredients": {
+      "Ripper": 1,
+      "Flametal": 1,
+      "Bloodstone": 1
+    },
+    "station": {
+      "name": "Black Forge",
+      "level": 4
+    },
+    "output": "1"
+  },
+  "Yellow Fireworks": {
+    "ingredients": {
+      "Basic Fireworks": 1,
+      "Dandelion": 1
+    },
+    "station": {
+      "name": "Workbench",
+      "level": 1
+    },
+    "output": "1"
+  },
+  "Yggdrasil Porridge": {
+    "ingredients": {
+      "Sap": 4,
+      "Barley": 3,
+      "Royal Jelly": 2
+    },
+    "station": {
+      "name": "Cauldron",
+      "level": 5
+    },
+    "output": "1"
+  }
+}

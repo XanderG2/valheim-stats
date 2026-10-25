@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
+
 def findSet(link):
     if link[0] == "/":
         link = "https://valheim.fandom.com" + link
@@ -10,7 +11,7 @@ def findSet(link):
         print(f"Failed to fetch URL: {link}")
         return set()
     soup = BeautifulSoup(response.content, features="html.parser")
-    table = soup.find("table", class_=["wikitable","article-table"])
+    table = soup.find("table", class_=["wikitable", "article-table"])
     try:
         trs = table.find_all("tr")[1:-1]
     except:
@@ -27,7 +28,7 @@ def findSet(link):
             try:
                 quantity, item_html = amnt_item.split(" ", 1)
             except:
-                print(link,"ERROR 2")
+                print(link, "ERROR 2")
                 return {}
             if "<td>" in quantity:
                 quantity = quantity[4:]
@@ -42,6 +43,6 @@ def findSet(link):
 
     return armorDict
 
+
 if __name__ == "__main__":
     print(findSet("https://valheim.fandom.com/wiki/Troll_Set"))
-
