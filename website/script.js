@@ -1,12 +1,13 @@
 const main = document.getElementById("main");
 const resultsDiv = document.getElementById("results");
-const resultsRecipeDiv = document.getElementById("resultsRecipes");
 const buttonsDiv = document.getElementById("buttons");
 const navbar = document.getElementById("navbar");
+
 let total = Object.create(null);
 let recipeAmounts = Object.create(null);
 let completed = [];
 let uncompleted = [];
+let craftingData = Object.create(null);
 
 function firstLoad() {
   load();
@@ -21,17 +22,17 @@ function save() {
 }
 
 function load() {
-  if (localStorage.getItem("total")) {
-    total = JSON.parse(localStorage.getItem("total"));
-  }
-  if (localStorage.getItem("recipeAmounts")) {
-    recipeAmounts = JSON.parse(localStorage.getItem("recipeAmounts"));
-  }
-  if (localStorage.getItem("completed")) {
-    completed = JSON.parse(localStorage.getItem("completed"));
-  }
-  if (localStorage.getItem("uncompleted")) {
-    uncompleted = JSON.parse(localStorage.getItem("uncompleted"));
+  try {
+    total = JSON.parse(localStorage.getItem("total")) ?? Object.create(null);
+    recipeAmounts = JSON.parse(localStorage.getItem("recipeAmounts")) ?? Object.create(null);
+    completed = JSON.parse(localStorage.getItem("completed")) ?? [];
+    uncompleted = JSON.parse(localStorage.getItem("uncompleted")) ?? [];
+  } catch (error) {
+    console.warn("Could not load saved calculator data:", error);
+    total = Object.create(null);
+    recipeAmounts = Object.create(null);
+    completed = [];
+    uncompleted = [];
   }
 }
 
@@ -42,279 +43,333 @@ function mainPage() {
 }
 
 function addNav() {
-  const options = [
-    "all",
-    "armour",
-    "building",
-    "crafting",
-    "food",
-    "furniture",
-    "materials",
-    "misc",
-    "tools",
-    "weapons",
-  ];
   const searchbar = document.createElement("input");
   searchbar.type = "search";
   searchbar.id = "search";
-  searchbar.placeholder = "Search for recipe...";
-  searchbar.addEventListener("input", (e) => {search(e.target)})
+  searchbar.placeholder = "Search for recipe or ingredient...";
+  searchbar.addEventListener("input", () => search(searchbar));
+
   const select = document.createElement("select");
   select.id = "select";
-  select.setAttribute("onchange", "openRecipesPrep()");
-  for (const optionText of options) {
-    const option = document.createElement("option");
-    option.textContent = optionText;
-    option.value = optionText;
-    select.appendChild(option);
-  }
+
+  const option = document.createElement("option");
+  option.textContent = "crafting";
+  option.value = "crafting";
+  select.appendChild(option);
+  select.addEventListener("change", openRecipesPrep);
+
   const attribution = document.createElement("p");
   attribution.textContent = "By Xander";
   attribution.style.float = "right";
   attribution.style.margin = "0";
+
   const homeButton = document.createElement("button");
   homeButton.textContent = "🏠";
   homeButton.style.float = "right";
-  homeButton.onclick = () => {window.location.href = "https://xander.thegillams.co.uk"};
+  homeButton.onclick = () => {
+    window.location.href = "https://xander.thegillams.co.uk";
+  };
+
   const clearButton = document.createElement("button");
   clearButton.textContent = "Clear all";
-  clearButton.style.align = "center";
   clearButton.id = "clearButton";
-  clearButton.onclick = () => {clear()};
+  clearButton.onclick = clear;
+
   const saveButton = document.createElement("button");
   saveButton.textContent = "Save all";
-  saveButton.style.align = "center";
-  saveButton.id = "clearButton";
-  saveButton.onclick = () => {save()};
-  navbar.appendChild(select);
-  navbar.appendChild(searchbar);
-  navbar.appendChild(clearButton);
-  navbar.appendChild(saveButton);
-  navbar.appendChild(homeButton);
-  navbar.appendChild(attribution);
+  saveButton.id = "saveButton";
+  saveButton.onclick = save;
+
+  navbar.replaceChildren(select, searchbar, clearButton, saveButton, homeButton, attribution);
 }
 
 function openRecipesPrep() {
-  openRecipes(document.getElementById("select").value);
+  const select = document.getElementById("select");
+  if (select) openRecipes(select.value);
 }
 
-function el(tagName, attributes) {
+function el(tagName, attributes = {}) {
   const element = document.createElement(tagName);
+
   for (const [key, value] of Object.entries(attributes)) {
     if (key === "style") {
-      for (const [key2, value2] of Object.entries(value)) {
-        element.style[key2] = value2;
-      }
+      Object.assign(element.style, value);
     } else {
       element[key] = value;
     }
-    /*if (!("style." in element[key])) {
-      element[key] = value;
-    } else {
-      element.style[key.split("style.")[1]] = value;
-    }*/
   }
+
   return element;
 }
 
 async function openRecipes(JSONFile) {
-  const response = await fetch(`../data/${JSONFile}.json`);
-  const data = await response.json();
-  buttonsDiv.innerHTML = "";
-  for (const [recipe, ingredients] of Object.entries(data)) {
-    /*const subdiv = document.createElement("div");
-    subdiv.style.display = "flex";
-    subdiv.style.flexDirection = "column";*/
-    const subdiv = el("div", {style: {display: "flex", flexDirection: "column"}})
-    const subsubdiv = document.createElement("div");
-    const text = el("p", {textContent: recipe, className: "noMP", id: "text"});
-    const addButton = document.createElement("button");
-    addButton.textContent = "+";
-    addButton.onclick = () => {
-      addRecipe(ingredients, recipe);
-    };
-    const minusButton = document.createElement("button");
-    minusButton.textContent = "-";
-    minusButton.onclick = () => {
-      takeRecipe(ingredients, recipe);
-    };
-    const amountTextP = document.createElement("p");
-    if (recipeAmounts[recipe] > 0) {
-      amountTextP.textContent = String(recipeAmounts[recipe]);
-    } else {
-      amountTextP.textContent = "0";
+  try {
+    const response = await fetch(`../data/${JSONFile}.json`);
+
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status} while loading ${JSONFile}.json`);
     }
-    amountTextP.className = "amountP";
-    const expand = document.createElement("div");
-    for (const [ingredient, amount] of Object.entries(ingredients)) {
-      const br = document.createElement("br");
-      const text1 = document.createElement("span");
-      text1.textContent = ingredient;
-      text1.id = "ingredient";
-      const text2 = document.createElement("span");
-      text2.textContent = amount;
-      text2.id = "amount";
-      const text = document.createTextNode(": ");
-      expand.appendChild(text1);
-      expand.appendChild(text);
-      expand.appendChild(text2);
-      expand.appendChild(br);
-    }
-    expand.style.marginBottom = "1em";
-    expand.id = "expand";
-    expand.style.display = "none";
-    const expandButton = document.createElement("button");
-    const img = document.createElement("img");
-    img.src = "down.svg";
-    expandButton.appendChild(img);
-    expandButton.onclick = () => {
-      if (expand.style.display != "") {
-        expand.style.display = "";
-        expandButton.querySelector("img").src = "up.svg";
-      } else {
-        expand.style.display = "none";
-        expandButton.querySelector("img").src = "down.svg";
+
+    const data = await response.json();
+    craftingData = data;
+    buttonsDiv.replaceChildren();
+
+    for (const [recipe, details] of Object.entries(data)) {
+      const ingredients = details.ingredients ?? {};
+      const station = details.station ?? {};
+      const output = Number(details.output) || 1;
+
+      const subdiv = el("div", {
+        style: {
+          display: "flex",
+          flexDirection: "column",
+        },
+      });
+
+      const row = el("div", {
+        style: {
+          display: "flex",
+          flexDirection: "row",
+          width: "100%",
+          alignItems: "center",
+        },
+      });
+
+      const recipeName = el("p", {
+        textContent: recipe,
+        className: "noMP recipeName",
+      });
+
+      recipeName.style.flex = "1";
+
+      const minusButton = document.createElement("button");
+      minusButton.textContent = "-";
+      minusButton.setAttribute("aria-label", `Remove one batch of ${recipe}`);
+      minusButton.onclick = () => takeRecipe(ingredients, recipe);
+
+      const amountText = el("p", {
+        textContent: String(recipeAmounts[recipe] ?? 0),
+        className: "amountP",
+      });
+
+      const addButton = document.createElement("button");
+      addButton.textContent = "+";
+      addButton.setAttribute("aria-label", `Add one batch of ${recipe}`);
+      addButton.onclick = () => addRecipe(ingredients, recipe);
+
+      const expand = document.createElement("div");
+      expand.id = "expand";
+      expand.style.display = "none";
+      expand.style.marginBottom = "1em";
+
+      const stationText = document.createElement("p");
+      const stationName = station.name || "Unknown station";
+      const stationLevel = station.level;
+
+      stationText.textContent =
+        stationLevel == null ? `Station: ${stationName}` : `Station: ${stationName} (level ${stationLevel})`;
+
+      expand.appendChild(stationText);
+
+      const outputText = document.createElement("p");
+      outputText.textContent = `This recipe makes ${output}.`;
+      expand.appendChild(outputText);
+
+      for (const [ingredient, amount] of Object.entries(ingredients)) {
+        const ingredientLine = document.createElement("div");
+
+        const ingredientName = el("span", {
+          textContent: ingredient,
+          id: "ingredient",
+        });
+
+        const ingredientAmount = el("span", {
+          textContent: String(amount),
+          id: "amount",
+        });
+
+        ingredientLine.append(ingredientName, document.createTextNode(": "), ingredientAmount);
+
+        expand.appendChild(ingredientLine);
       }
-    };
-    subsubdiv.style.display = "flex";
-    subsubdiv.style.flexDirection = "row";
-    subsubdiv.style.width = "100%";
-    subsubdiv.appendChild(text);
-    subsubdiv.appendChild(minusButton);
-    subsubdiv.appendChild(amountTextP);
-    subsubdiv.appendChild(addButton);
-    subsubdiv.appendChild(expandButton);
-    subdiv.appendChild(subsubdiv);
-    subdiv.appendChild(expand);
-    subdiv.className = "noMP f searchElement buttonContainer";
-    buttonsDiv.appendChild(subdiv);
+
+      const expandButton = document.createElement("button");
+
+      const img = document.createElement("img");
+      img.src = "down.svg";
+      img.alt = "Show recipe details";
+
+      expandButton.appendChild(img);
+      expandButton.setAttribute("aria-expanded", "false");
+
+      expandButton.onclick = () => {
+        const isHidden = expand.style.display === "none";
+
+        expand.style.display = isHidden ? "" : "none";
+        img.src = isHidden ? "up.svg" : "down.svg";
+        img.alt = isHidden ? "Hide recipe details" : "Show recipe details";
+
+        expandButton.setAttribute("aria-expanded", String(isHidden));
+      };
+
+      row.append(recipeName, minusButton, amountText, addButton, expandButton);
+
+      subdiv.append(row, expand);
+      subdiv.className = "noMP f searchElement buttonContainer";
+
+      buttonsDiv.appendChild(subdiv);
+    }
+
+    search(document.getElementById("search"));
+  } catch (error) {
+    console.error("couldnt load crafting recipes:", error);
+
+    buttonsDiv.textContent = "couldnt load crafting recipes... check that ../data/crafting.json exists";
   }
-  search(document.getElementById("search"));
 }
 
 function addRecipe(ingredients, recipe) {
   for (const [ingredient, amount] of Object.entries(ingredients)) {
-    const n = parseInt(amount, 10);
-    if (total[ingredient]) {
-      total[ingredient] = total[ingredient] + n;
-    } else {
-      total[ingredient] = n;
-    }
+    const n = Number(amount) || 0;
+
+    if (n === 0) continue;
+
+    total[ingredient] = (Number(total[ingredient]) || 0) + n;
   }
-  if (recipeAmounts[recipe]) {
-    recipeAmounts[recipe] += 1;
-  } else {
-    recipeAmounts[recipe] = 1;
-  }
+
+  recipeAmounts[recipe] = (Number(recipeAmounts[recipe]) || 0) + 1;
+
+  save();
   view();
   openRecipesPrep();
 }
 
 function takeRecipe(ingredients, recipe) {
+  if (!(recipeAmounts[recipe] > 0)) return;
+
   for (const [ingredient, amount] of Object.entries(ingredients)) {
-    const n = parseInt(amount, 10);
-    if (recipeAmounts[recipe] > 0) {
-      total[ingredient] = total[ingredient] - n;
-    } else {
-      return;
-    }
+    const n = Number(amount) || 0;
+
+    if (n === 0) continue;
+
+    total[ingredient] = (Number(total[ingredient]) || 0) - n;
+
     if (total[ingredient] <= 0) {
       delete total[ingredient];
     }
   }
+
   recipeAmounts[recipe] -= 1;
+
   if (recipeAmounts[recipe] <= 0) {
     delete recipeAmounts[recipe];
   }
+
+  completed = completed.filter((ingredient) => ingredient in total);
+
+  uncompleted = uncompleted.filter((ingredient) => ingredient in total);
+
+  save();
   view();
   openRecipesPrep();
 }
 
 function view() {
-  resultsDiv.innerHTML = "";
+  resultsDiv.replaceChildren();
+
   const uncompletedDiv = document.createElement("div");
   uncompletedDiv.id = "uncompleted";
-  const label2 = document.createElement("h1");
-  label2.textContent = "Uncompleted";
-  uncompletedDiv.appendChild(label2);
+
+  uncompletedDiv.appendChild(el("h1", { textContent: "Uncompleted" }));
+
   const completedDiv = document.createElement("div");
   completedDiv.id = "completed";
-  const label1 = document.createElement("h1");
-  label1.textContent = "Completed";
-  completedDiv.appendChild(label1);
-  resultsDiv.appendChild(uncompletedDiv);
-  resultsDiv.appendChild(completedDiv);
+
+  completedDiv.appendChild(el("h1", { textContent: "Completed" }));
+
+  resultsDiv.append(uncompletedDiv, completedDiv);
+
   for (const [ingredient, amount] of Object.entries(total)) {
-    const div3 = document.createElement("div");
-    const br = document.createElement("br");
-    const text1 = document.createElement("span");
-    text1.textContent = ingredient;
-    text1.id = "ingredient";
-    const text2 = document.createElement("span");
-    text2.textContent = amount;
-    text2.id = "amount";
-    const text = document.createTextNode(": ");
+    const item = document.createElement("div");
+
+    const name = el("span", {
+      textContent: ingredient,
+      id: "ingredient",
+    });
+
+    const quantity = el("span", {
+      textContent: String(amount),
+      id: "amount",
+    });
+
     const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.className = "checkbox";
-    div3.appendChild(text1);
-    div3.appendChild(text);
-    div3.appendChild(text2);
-    div3.appendChild(checkbox);
-    div3.appendChild(br);
-    div3.className = "noNewLine";
-    uncompletedDiv.appendChild(div3);
-  }
-  Array.from(document.getElementsByClassName("checkbox")).forEach(checkbox => {
-    checkbox.addEventListener("change", (e) => {
-      const ingredient = e.target.parentElement.querySelector("#ingredient").textContent
-      if (e.target.checked) {
-        if (uncompleted.includes(ingredient)) {
-          uncompleted.splice(uncompleted.indexOf(ingredient));
-        }
-        completed.push(ingredient);
-        completedDiv.appendChild(e.target.parentElement);
+    checkbox.checked = completed.includes(ingredient);
+
+    item.append(name, document.createTextNode(": "), quantity, checkbox, document.createElement("br"));
+
+    item.className = "noNewLine";
+
+    if (checkbox.checked) {
+      completedDiv.appendChild(item);
+    } else {
+      uncompletedDiv.appendChild(item);
+    }
+
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        completed = [...new Set([...completed, ingredient])];
+
+        uncompleted = uncompleted.filter((itemName) => itemName !== ingredient);
       } else {
-        if (completed.includes(ingredient)) {
-          completed.splice(completed.indexOf(ingredient));
-        }
-        uncompleted.push(ingredient);
-        uncompletedDiv.appendChild(e.target.parentElement);
+        uncompleted = [...new Set([...uncompleted, ingredient])];
+
+        completed = completed.filter((itemName) => itemName !== ingredient);
       }
+
+      save();
+      view();
     });
-  });
+  }
 }
 
 function mkre(text) {
-  const cleanText = text.toLowerCase().replace(/[^a-z]/g, '');
+  const cleanText = text.toLowerCase().replace(/[^a-z0-9]/g, "");
+
   const re = cleanText.split("").join(".*");
-  return new RegExp(re, 'i');
+
+  return new RegExp(re, "i");
 }
 
 function search(target) {
-  const value = target.value;
+  if (!target) return;
+
+  const value = target.value.trim();
   const elements = document.getElementsByClassName("searchElement");
   const re = mkre(value);
-  for (i = 0; i < elements.length; i++) {
-    var p = elements[i].querySelector("p");
-    if (p) {
-      txtValue = p.textContent || p.innerText;
-      if (re.test(txtValue)) {
-        elements[i].style.display = "";
-      } else {
-        elements[i].style.display = "none";
-      }
-    }
+
+  for (const element of elements) {
+    const recipeName = element.querySelector(".recipeName");
+    const ingredients = element.querySelectorAll("#ingredient");
+
+    const matchesRecipe = re.test(recipeName?.textContent ?? "");
+
+    const matchesIngredient = Array.from(ingredients).some((item) => re.test(item.textContent ?? ""));
+
+    element.style.display = !value || matchesRecipe || matchesIngredient ? "" : "none";
   }
 }
 
 function clear() {
-  view(); // put the completed all into uncompleted
   total = Object.create(null);
   recipeAmounts = Object.create(null);
+  completed = [];
   uncompleted = [];
+
+  save();
   view();
-  openRecipesPrep(); // only need this so that the numbers between - and + reset
+  openRecipesPrep();
 }
 
-firstLoad()
+firstLoad();
